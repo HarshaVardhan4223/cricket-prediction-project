@@ -1,0 +1,36 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Flask
+instance/
+.webassets-cache
+*.egg-info/
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.log
+.env
+.env.local
+
+# Optional: exclude very large model files if pushing to GitHub
+# Uncomment if models are too large for free GitHub tier:
+# models/*.pkl
+# data/processed/*.csv

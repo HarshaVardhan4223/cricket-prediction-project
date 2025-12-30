@@ -1,0 +1,235 @@
+player_name,country,role,batting_rating,bowling_rating
+Rohit Sharma,India,Opening Batsman,99.73,0.0
+Shubman Gill,India,Top-Order Batsman,98.32,0.0
+Yashasvi Jaiswal,India,Opening Batsman,76.18,0.0
+KL Rahul,India,Wicketkeeper Batsman,99.66,0.0
+Virat Kohli,India,Top-Order Batsman,98.94,0.0
+Shreyas Iyer,India,Middle-Order Batsman,95.84,0.0
+Suryakumar Yadav,India,Middle-Order Batsman,91.09,0.0
+Rishabh Pant,India,Wicketkeeper Batsman,88.82,0.0
+Sanju Samson,India,Wicketkeeper Batsman,68.08,0.0
+Ishan Kishan,India,Wicketkeeper Batsman,88.87,0.0
+Hardik Pandya,India,Pace Bowling All-Rounder,88.52,89.95
+Ravindra Jadeja,India,Spin Bowling All-Rounder,37.28,94.35
+Axar Patel,India,Spin Bowling All-Rounder,30.94,94.5
+Washington Sundar,India,Spin Bowling All-Rounder,11.16,77.5
+Shivam Dube,India,Batting All-Rounder,64.07,30.0
+Jasprit Bumrah,India,Fast Bowler,0.0,97.6
+Mohammed Siraj,India,Fast Bowler,0.0,87.1
+Mohammed Shami,India,Fast Bowler,0.0,84.6
+Kuldeep Yadav,India,Spin Bowler,0.0,95.35
+Yuzvendra Chahal,India,Spin Bowler,0.0,89.2
+Ravichandran Ashwin,India,Spin Bowling All-Rounder,0.0,80.0
+Arshdeep Singh,India,Fast Bowler,0.0,80.35
+Tilak Varma,India,Middle-Order Batsman,69.51,0.0
+Rinku Singh,India,Middle-Order Batsman,77.69,0.0
+Abhishek Sharma,India,Opening All-Rounder,64.85,30.0
+Dhruv Jurel,India,Wicketkeeper Batsman,25.31,0.0
+Nitish Kumar Reddy,India,Pace Bowling All-Rounder,23.67,31.5
+Mayank Yadav,India,Fast Bowler,0.0,33.5
+Vaibhav Suryavanshi,India,Opening Batsman,0.0,0.0
+Ayush Mhatre,India,Opening Batsman,0.0,0.0
+Musheer Khan,India,Top-Order All-Rounder,0.0,30.0
+Ramandeep Singh,India,Batting All-Rounder,11.34,30.0
+David Warner,Australia,Opening Batsman,100.0,0.0
+Steve Smith,Australia,Top-Order Batsman,72.94,0.0
+Marnus Labuschagne,Australia,Top-Order Batsman,65.55,0.0
+Travis Head,Australia,Opening All-Rounder,100.0,30.0
+Mitchell Marsh,Australia,Pace Bowling All-Rounder,73.29,49.0
+Glenn Maxwell,Australia,Middle-Order All-Rounder,86.81,80.0
+Marcus Stoinis,Australia,Pace Bowling All-Rounder,89.06,72.5
+Alex Carey,Australia,Wicketkeeper Batsman,70.97,0.0
+Josh Inglis,Australia,Wicketkeeper Batsman,74.27,0.0
+Pat Cummins,Australia,Fast Bowling All-Rounder,0.0,90.7
+Mitchell Starc,Australia,Fast Bowler,0.0,91.1
+Josh Hazlewood,Australia,Fast Bowler,0.0,91.0
+Nathan Ellis,Australia,Fast Bowler,0.0,47.9
+Spencer Johnson,Australia,Fast Bowler,0.0,39.95
+Adam Zampa,Australia,Spin Bowler,0.0,94.75
+Ashton Agar,Australia,Spin Bowling All-Rounder,0.0,44.5
+Cameron Green,Australia,Pace Bowling All-Rounder,80.58,46.5
+Tim David,Australia,Middle-Order Batsman,80.62,0.0
+Matthew Wade,Australia,Wicketkeeper Batsman,63.8,0.0
+Jake Fraser-McGurk,Australia,Opening Batsman,93.75,0.0
+Matthew Short,Australia,Batting All-Rounder,69.53,30.0
+Sean Abbott,Australia,Pace Bowler,0.0,50.0
+Jason Behrendorff,Australia,Fast Bowler,0.0,60.5
+Tanveer Sangha,Australia,Spin Bowler,0.0,45.0
+Xavier Bartlett,Australia,Fast Bowler,0.0,45.0
+Jos Buttler,England,Wicketkeeper Batsman,98.14,0.0
+Phil Salt,England,Opening Batsman,94.63,0.0
+Harry Brook,England,Top-Order Batsman,99.38,0.0
+Joe Root,England,Top-Order Batsman,74.57,0.0
+Ben Stokes,England,Pace Bowling All-Rounder,87.07,87.5
+Jonny Bairstow,England,Wicketkeeper Batsman,97.43,0.0
+Zak Crawley,England,Opening Batsman,67.77,0.0
+Ben Duckett,England,Top-Order Batsman,74.69,0.0
+Liam Livingstone,England,Batting All-Rounder,84.48,54.0
+Moeen Ali,England,Spin Bowling All-Rounder,79.38,89.5
+Sam Curran,England,Pace Bowling All-Rounder,70.2,82.5
+Chris Woakes,England,Pace Bowling All-Rounder,63.32,90.0
+Adil Rashid,England,Spin Bowler,0.0,93.0
+Mark Wood,England,Fast Bowler,0.0,88.0
+Jofra Archer,England,Fast Bowler,0.0,86.0
+Reece Topley,England,Fast Bowler,0.0,63.0
+Chris Jordan,England,Pace Bowler,0.0,75.5
+Dawid Malan,England,Top-Order Batsman,90.88,0.0
+Jason Roy,England,Opening Batsman,90.78,0.0
+Will Jacks,England,Batting All-Rounder,91.31,44.5
+Tom Hartley,England,Spin Bowler,0.0,46.5
+Gus Atkinson,England,Fast Bowler,0.0,47.5
+Ben Foakes,England,Wicketkeeper Batsman,63.39,0.0
+Ollie Pope,England,Top-Order Batsman,71.43,0.0
+Saqib Mahmood,England,Fast Bowler,0.0,46.0
+Quinton de Kock,South Africa,Wicketkeeper Batsman,97.65,0.0
+Temba Bavuma,South Africa,Top-Order Batsman,71.75,0.0
+Aiden Markram,South Africa,Top-Order Batsman,89.32,0.0
+Heinrich Klaasen,South Africa,Wicketkeeper Batsman,98.88,0.0
+David Miller,South Africa,Middle-Order Batsman,96.46,0.0
+Rassie van der Dussen,South Africa,Top-Order Batsman,93.39,0.0
+Reeza Hendricks,South Africa,Opening Batsman,63.84,0.0
+Kagiso Rabada,South Africa,Fast Bowler,0.0,89.0
+Anrich Nortje,South Africa,Fast Bowler,0.0,88.0
+Lungi Ngidi,South Africa,Fast Bowler,0.0,87.5
+Tabraiz Shamsi,South Africa,Spin Bowler,0.0,85.0
+Keshav Maharaj,South Africa,Spin Bowler,0.0,77.5
+Marco Jansen,South Africa,Pace Bowling All-Rounder,75.01,65.0
+Andile Phehlukwayo,South Africa,Pace Bowling All-Rounder,56.32,84.0
+Faf du Plessis,South Africa,Top-Order Batsman,95.64,0.0
+Ryan Rickelton,South Africa,Wicketkeeper Batsman,75.0,0.0
+Tristan Stubbs,South Africa,Middle-Order Batsman,93.23,0.0
+Bjorn Fortuin,South Africa,Spin Bowler,0.0,47.0
+Gerald Coetzee,South Africa,Fast Bowler,0.0,55.0
+Ottniel Baartman,South Africa,Fast Bowler,0.0,42.5
+Rilee Rossouw,South Africa,Top-Order Batsman,63.64,0.0
+Dewald Brevis,South Africa,Top-Order Batsman,62.5,0.0
+Donovan Ferreira,South Africa,Wicketkeeper Batsman,50.0,0.0
+Babar Azam,Pakistan,Top-Order Batsman,81.85,0.0
+Mohammad Rizwan,Pakistan,Wicketkeeper Batsman,70.56,0.0
+Fakhar Zaman,Pakistan,Opening Batsman,76.24,0.0
+Imam-ul-Haq,Pakistan,Opening Batsman,73.03,0.0
+Saim Ayub,Pakistan,Opening Batsman,68.75,0.0
+Shadab Khan,Pakistan,Spin Bowling All-Rounder,66.52,87.0
+Imad Wasim,Pakistan,Spin Bowling All-Rounder,73.7,70.5
+Shaheen Afridi,Pakistan,Fast Bowler,0.0,91.5
+Haris Rauf,Pakistan,Fast Bowler,0.0,73.5
+Naseem Shah,Pakistan,Fast Bowler,0.0,58.5
+Mohammad Nawaz,Pakistan,Spin Bowling All-Rounder,54.62,61.5
+Iftikhar Ahmed,Pakistan,Batting All-Rounder,72.01,49.0
+Abdullah Shafique,Pakistan,Top-Order Batsman,70.64,0.0
+Usama Mir,Pakistan,Spin Bowler,0.0,50.0
+Hasan Ali,Pakistan,Fast Bowler,0.0,85.5
+Azam Khan,Pakistan,Wicketkeeper Batsman,50.0,0.0
+Mohammad Haris,Pakistan,Wicketkeeper Batsman,65.62,0.0
+Zaman Khan,Pakistan,Fast Bowler,0.0,40.0
+Mohammad Wasim Jr,Pakistan,Pace Bowling All-Rounder,55.36,47.0
+Shan Masood,Pakistan,Top-Order Batsman,64.17,0.0
+Haider Ali,Pakistan,Middle-Order Batsman,48.21,0.0
+Mohammad Amir,Pakistan,Fast Bowler,0.0,85.0
+Asif Ali,Pakistan,Middle-Order Batsman,64.25,0.0
+Aamer Jamal,Pakistan,Pace Bowling All-Rounder,44.64,37.5
+Saud Shakeel,Pakistan,Top-Order Batsman,26.04,0.0
+Rashid Khan,Afghanistan,Spin Bowling All-Rounder,67.41,99.5
+Mohammad Nabi,Afghanistan,Spin Bowling All-Rounder,76.36,93.5
+Rahmanullah Gurbaz,Afghanistan,Wicketkeeper Batsman,84.17,0.0
+Hazratullah Zazai,Afghanistan,Opening Batsman,61.24,0.0
+Ibrahim Zadran,Afghanistan,Top-Order Batsman,71.45,0.0
+Najibullah Zadran,Afghanistan,Middle-Order Batsman,67.68,0.0
+Mujeeb Ur Rahman,Afghanistan,Spin Bowler,0.0,98.0
+Fazalhaq Farooqi,Afghanistan,Fast Bowler,0.0,72.0
+Naveen-ul-Haq,Afghanistan,Fast Bowler,0.0,62.5
+Azmatullah Omarzai,Afghanistan,Pace Bowling All-Rounder,71.69,54.0
+Gulbadin Naib,Afghanistan,Pace Bowling All-Rounder,55.68,76.0
+Noor Ahmad,Afghanistan,Spin Bowler,0.0,57.5
+Hashmatullah Shahidi,Afghanistan,Top-Order Batsman,60.48,0.0
+Rahmat Shah,Afghanistan,Top-Order Batsman,58.29,0.0
+Qais Ahmad,Afghanistan,Spin Bowler,0.0,45.0
+Ikram Alikhil,Afghanistan,Wicketkeeper Batsman,54.31,0.0
+Sharafuddin Ashraf,Afghanistan,Spin Bowling All-Rounder,51.79,49.0
+Fareed Ahmad,Afghanistan,Fast Bowler,0.0,45.0
+Karim Janat,Afghanistan,Pace Bowling All-Rounder,54.58,43.0
+Darwish Rasooli,Afghanistan,Middle-Order Batsman,46.43,0.0
+Sediqullah Atal,Afghanistan,Opening Batsman,44.64,0.0
+Kane Williamson,New Zealand,Top-Order Batsman,94.06,0.0
+Devon Conway,New Zealand,Opening Batsman,96.17,0.0
+Finn Allen,New Zealand,Opening Batsman,84.22,0.0
+Daryl Mitchell,New Zealand,Batting All-Rounder,99.45,49.0
+Glenn Phillips,New Zealand,Middle-Order Batsman,89.06,0.0
+Tom Latham,New Zealand,Wicketkeeper Batsman,64.58,0.0
+Rachin Ravindra,New Zealand,Batting All-Rounder,87.68,54.0
+Mitchell Santner,New Zealand,Spin Bowling All-Rounder,60.44,94.5
+Trent Boult,New Zealand,Fast Bowler,0.0,91.0
+Tim Southee,New Zealand,Fast Bowler,0.0,90.0
+Lockie Ferguson,New Zealand,Fast Bowler,0.0,90.5
+Matt Henry,New Zealand,Fast Bowler,0.0,87.5
+Ish Sodhi,New Zealand,Spin Bowler,0.0,77.0
+James Neesham,New Zealand,Pace Bowling All-Rounder,78.57,77.5
+Mark Chapman,New Zealand,Middle-Order Batsman,70.94,0.0
+Michael Bracewell,New Zealand,Spin Bowling All-Rounder,69.42,50.0
+Will Young,New Zealand,Top-Order Batsman,70.11,0.0
+Adam Milne,New Zealand,Fast Bowler,0.0,71.5
+Ben Sears,New Zealand,Fast Bowler,0.0,44.0
+Tom Blundell,New Zealand,Wicketkeeper Batsman,61.61,0.0
+Cole McConchie,New Zealand,Batting All-Rounder,46.43,42.5
+Zakary Foulkes,New Zealand,Pace Bowling All-Rounder,39.29,40.0
+Kieron Pollard,West Indies,Batting All-Rounder,82.28,88.5
+Andre Russell,West Indies,Pace Bowling All-Rounder,85.29,87.0
+Nicholas Pooran,West Indies,Wicketkeeper Batsman,91.0,0.0
+Jason Holder,West Indies,Pace Bowling All-Rounder,59.38,89.0
+Sunil Narine,West Indies,Spin Bowling All-Rounder,18.44,100.0
+Rovman Powell,West Indies,Middle-Order Batsman,78.99,0.0
+Shimron Hetmyer,West Indies,Middle-Order Batsman,81.41,0.0
+Shai Hope,West Indies,Wicketkeeper Batsman,89.97,0.0
+Alzarri Joseph,West Indies,Fast Bowler,0.0,89.0
+Akeal Hosein,West Indies,Spin Bowler,0.0,75.5
+Brandon King,West Indies,Opening Batsman,65.89,0.0
+Evin Lewis,West Indies,Opening Batsman,90.56,0.0
+Shamar Joseph,West Indies,Fast Bowler,0.0,40.5
+Romario Shepherd,West Indies,Pace Bowling All-Rounder,75.0,51.5
+Kyle Mayers,West Indies,Batting All-Rounder,83.31,44.5
+Odean Smith,West Indies,Pace Bowling All-Rounder,70.31,46.5
+Johnson Charles,West Indies,Opening Batsman,63.88,0.0
+Roston Chase,West Indies,Spin Bowling All-Rounder,60.33,56.0
+Obed McCoy,West Indies,Fast Bowler,0.0,43.5
+Sherfane Rutherford,West Indies,Middle-Order Batsman,63.84,0.0
+Kusal Mendis,Sri Lanka,Wicketkeeper Batsman,68.5,0.0
+Pathum Nissanka,Sri Lanka,Opening Batsman,70.27,0.0
+Kusal Perera,Sri Lanka,Wicketkeeper Batsman,67.3,0.0
+Dhananjaya de Silva,Sri Lanka,Batting All-Rounder,62.01,64.5
+Wanindu Hasaranga,Sri Lanka,Spin Bowling All-Rounder,70.83,96.0
+Charith Asalanka,Sri Lanka,Batting All-Rounder,70.65,30.0
+Dasun Shanaka,Sri Lanka,Pace Bowling All-Rounder,57.94,53.0
+Angelo Mathews,Sri Lanka,Batting All-Rounder,67.02,93.5
+Maheesh Theekshana,Sri Lanka,Spin Bowler,0.0,79.0
+Dushmantha Chameera,Sri Lanka,Fast Bowler,0.0,72.0
+Matheesha Pathirana,Sri Lanka,Fast Bowler,0.0,53.5
+Dimuth Karunaratne,Sri Lanka,Opening Batsman,22.23,0.0
+Avishka Fernando,Sri Lanka,Opening Batsman,68.68,0.0
+Bhanuka Rajapaksa,Sri Lanka,Middle-Order Batsman,66.09,0.0
+Kamindu Mendis,Sri Lanka,Batting All-Rounder,68.08,44.5
+Lahiru Kumara,Sri Lanka,Fast Bowler,0.0,61.5
+Dilshan Madushanka,Sri Lanka,Fast Bowler,0.0,57.5
+Nuwan Thushara,Sri Lanka,Fast Bowler,0.0,44.0
+Dinesh Chandimal,Sri Lanka,Wicketkeeper Batsman,56.53,0.0
+Chamika Karunaratne,Sri Lanka,Pace Bowling All-Rounder,54.58,51.0
+Dunith Wellalage,Sri Lanka,Spin Bowling All-Rounder,51.79,50.0
+Shakib Al Hasan,Bangladesh,Spin Bowling All-Rounder,79.3,96.0
+Mushfiqur Rahim,Bangladesh,Wicketkeeper Batsman,64.04,0.0
+Tamim Iqbal,Bangladesh,Opening Batsman,64.37,0.0
+Mahmudullah,Bangladesh,Batting All-Rounder,64.6,83.0
+Litton Das,Bangladesh,Wicketkeeper Batsman,68.47,0.0
+Najmul Hossain Shanto,Bangladesh,Top-Order Batsman,63.88,0.0
+Mustafizur Rahman,Bangladesh,Fast Bowler,0.0,92.5
+Taskin Ahmed,Bangladesh,Fast Bowler,0.0,91.0
+Mehidy Hasan Miraz,Bangladesh,Spin Bowling All-Rounder,53.37,92.0
+Towhid Hridoy,Bangladesh,Middle-Order Batsman,70.3,0.0
+Soumya Sarkar,Bangladesh,Batting All-Rounder,64.29,45.0
+Shoriful Islam,Bangladesh,Fast Bowler,0.0,67.5
+Afif Hossain,Bangladesh,Batting All-Rounder,61.72,45.5
+Hasan Mahmud,Bangladesh,Fast Bowler,0.0,58.0
+Nasum Ahmed,Bangladesh,Spin Bowler,0.0,55.5
+Anamul Haque,Bangladesh,Wicketkeeper Batsman,60.21,0.0
+Mahedi Hasan,Bangladesh,Spin Bowling All-Rounder,51.0,51.0
+Jaker Ali,Bangladesh,Wicketkeeper Batsman,62.05,0.0
+Tanzid Hasan,Bangladesh,Opening Batsman,62.5,0.0
+Rishad Hossain,Bangladesh,Spin Bowler,0.0,44.0

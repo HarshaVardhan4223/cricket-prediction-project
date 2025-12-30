@@ -1,0 +1,143 @@
+Player_Name,Age,Country,Role,Recent_Form,IPL_Team,Avg_Score,Strike_Rate,Wickets,Economy
+Yashasvi Jaiswal,23,India,Batsman,Excellent,RR,45,148,0,0
+Vaibhav Suryavanshi,13,India,Batsman,Rising,RR,0,0,0,0
+Shubman Gill,25,India,Batsman,Excellent,GT,42,135,0,0
+Ruturaj Gaikwad,28,India,Batsman,Good,CSK,38,128,0,0
+Tilak Varma,22,India,Batsman,Excellent,MI,35,140,0,0
+Abhishek Sharma,24,India,All-rounder,Excellent,SRH,32,165,8,8.5
+Rinku Singh,27,India,Batsman,Excellent,KKR,38,142,0,0
+Dhruv Jurel,23,India,Wicketkeeper,Excellent,RR,32,125,0,0
+Nitish Kumar Reddy,21,India,All-rounder,Excellent,SRH,26,135,12,8.0
+Riyan Parag,23,India,All-rounder,Good,RR,28,130,8,7.8
+Ayush Badoni,25,India,All-rounder,Good,LSG,28,130,5,8.0
+Yash Dhull,22,India,Batsman,Rising,DC,25,125,0,0
+Priyam Garg,24,India,Batsman,Good,SRH,28,122,0,0
+Sarfaraz Khan,27,India,Batsman,Good,DC,35,125,0,0
+Rajvardhan Hangargekar,22,India,All-rounder,Rising,CSK,15,142,12,9.2
+Umran Malik,25,India,Bowler,Good,SRH,8,95,18,9.8
+Mayank Yadav,23,India,Bowler,Excellent,LSG,5,80,15,8.5
+Harshit Rana,23,India,Bowler,Good,KKR,6,85,20,8.8
+Mohsin Khan,25,India,Bowler,Good,LSG,4,75,22,8.2
+Arshdeep Singh,26,India,Bowler,Excellent,PBKS,12,90,52,8.2
+Ravi Bishnoi,24,India,Bowler,Excellent,LSG,8,85,48,7.5
+Kuldeep Sen,28,India,Bowler,Good,RR,6,80,15,8.8
+Akash Deep,28,India,Bowler,Good,RCB,8,75,22,8.5
+Mukesh Kumar,31,India,Bowler,Good,DC,7,70,28,8.8
+Rahmanullah Gurbaz,23,Afghanistan,Batsman,Excellent,KKR,38,145,0,0
+Ibrahim Zadran,22,Afghanistan,Batsman,Good,PBKS,32,125,0,0
+Noor Ahmad,19,Afghanistan,Bowler,Good,GT,0,0,25,7.2
+Mujeeb Ur Rahman,24,Afghanistan,Bowler,Good,MI,8,90,22,7.0
+Fazalhaq Farooqi,24,Afghanistan,Bowler,Excellent,DC,6,75,48,7.8
+Naveen-ul-Haq,25,Afghanistan,Bowler,Good,LSG,10,95,24,8.5
+Azmatullah Omarzai,24,Afghanistan,All-rounder,Excellent,GT,28,125,35,8.2
+Nangeyalia Kharote,23,Afghanistan,Bowler,Rising,None,5,70,18,7.5
+Sediqullah Atal,23,Afghanistan,Batsman,Rising,None,32,138,0,0
+Tristan Stubbs,24,South Africa,Batsman,Good,DC,32,142,0,0
+Dewald Brevis,22,South Africa,Batsman,Good,MI,28,155,0,0
+Marco Jansen,25,South Africa,All-rounder,Excellent,SRH,18,130,42,8.5
+Gerald Coetzee,24,South Africa,Bowler,Good,MI,8,90,38,8.8
+Kwena Maphaka,18,South Africa,Bowler,Rising,MI,0,0,12,8.5
+Matthew Breetzke,24,South Africa,Batsman,Rising,PBKS,25,135,0,0
+Reeza Hendricks,35,South Africa,Batsman,Good,None,38,128,0,0
+Ryan Rickelton,28,South Africa,Wicketkeeper,Good,None,35,118,0,0
+Bjorn Fortuin,31,South Africa,Bowler,Good,None,12,95,32,7.2
+Nandre Burger,24,South Africa,Bowler,Rising,None,6,75,25,8.5
+Finn Allen,25,New Zealand,Batsman,Good,RCB,32,165,0,0
+Rachin Ravindra,25,New Zealand,All-rounder,Excellent,CSK,35,128,28,7.8
+Will Young,32,New Zealand,Batsman,Good,None,38,115,0,0
+Mark Chapman,31,New Zealand,All-rounder,Good,None,32,135,12,7.5
+Ben Sears,28,New Zealand,Bowler,Good,None,8,85,32,8.2
+Adam Milne,33,New Zealand,Bowler,Good,None,10,90,38,8.5
+Nathan Smith,26,New Zealand,All-rounder,Rising,None,18,125,22,8.8
+Michael Bracewell,34,New Zealand,All-rounder,Good,None,28,118,25,7.2
+Cole McConchie,33,New Zealand,All-rounder,Good,None,25,120,18,7.8
+Phil Salt,28,England,Batsman,Excellent,DC,40,162,0,0
+Will Jacks,26,England,All-rounder,Good,RCB,35,155,6,8.0
+Harry Brook,26,England,Batsman,Excellent,None,42,145,0,0
+Jamie Smith,24,England,Wicketkeeper,Rising,None,32,135,0,0
+Tom Kohler-Cadmore,30,England,Batsman,Good,None,35,148,0,0
+Rehan Ahmed,20,England,Bowler,Rising,PBKS,8,85,25,8.2
+Tom Hartley,25,England,Bowler,Good,None,12,95,28,7.5
+Josh Hull,20,England,Bowler,Rising,None,5,70,15,8.8
+Brydon Carse,30,England,Bowler,Good,None,15,125,35,8.5
+Gus Atkinson,27,England,Bowler,Excellent,None,18,118,42,8.2
+Jamie Overton,29,England,All-rounder,Good,RR,18,138,15,9.2
+Reece Topley,31,England,Bowler,Good,RCB,5,70,38,8.0
+Saqib Mahmood,28,England,Bowler,Good,None,10,90,32,8.5
+Alzarri Joseph,28,West Indies,Bowler,Good,RCB,10,95,52,8.8
+Rovman Powell,31,West Indies,All-rounder,Good,RR,30,148,5,9.0
+Romario Shepherd,29,West Indies,All-rounder,Good,LSG,22,142,35,8.5
+Akeal Hosein,31,West Indies,Bowler,Good,SRH,12,100,45,7.2
+Shamar Joseph,25,West Indies,Bowler,Rising,LSG,5,80,28,8.8
+Obed McCoy,28,West Indies,Bowler,Good,None,8,85,38,8.2
+Kyle Mayers,33,West Indies,All-rounder,Good,None,32,138,28,8.5
+Keacy Carty,27,West Indies,Batsman,Rising,None,28,125,0,0
+Alick Athanaze,25,West Indies,Batsman,Rising,None,32,118,0,0
+Gudakesh Motie,30,West Indies,Bowler,Good,None,10,90,42,7.5
+Matthew Forde,23,West Indies,Bowler,Rising,None,8,85,22,8.5
+Babar Azam,30,Pakistan,Batsman,Excellent,None,48,118,0,0
+Mohammad Rizwan,32,Pakistan,Wicketkeeper,Excellent,None,42,125,0,0
+Fakhar Zaman,35,Pakistan,Batsman,Good,None,38,135,0,0
+Saim Ayub,22,Pakistan,All-rounder,Excellent,None,35,142,15,7.8
+Haris Rauf,31,Pakistan,Bowler,Excellent,PBKS,10,95,58,8.5
+Shaheen Afridi,24,Pakistan,Bowler,Excellent,PBKS,12,105,62,8.2
+Naseem Shah,22,Pakistan,Bowler,Excellent,None,8,90,45,8.8
+Abbas Afridi,24,Pakistan,Bowler,Rising,None,6,80,28,8.2
+Mohammad Hasnain,25,Pakistan,Bowler,Good,None,5,75,32,8.5
+Zaman Khan,22,Pakistan,Bowler,Rising,None,6,80,25,8.8
+Sufiyan Muqeem,26,Pakistan,Bowler,Rising,None,8,85,22,7.5
+Aamer Jamal,28,Pakistan,All-rounder,Rising,None,22,128,18,8.5
+Irfan Khan,23,Pakistan,All-rounder,Rising,None,25,135,8,7.8
+Tayyab Tahir,26,Pakistan,Batsman,Rising,None,28,125,0,0
+Pathum Nissanka,26,Sri Lanka,Batsman,Good,None,38,122,0,0
+Kusal Mendis,30,Sri Lanka,Wicketkeeper,Good,None,35,128,0,0
+Charith Asalanka,27,Sri Lanka,All-rounder,Good,None,32,125,12,7.5
+Sadeera Samarawickrama,29,Sri Lanka,Batsman,Good,None,28,118,0,0
+Kamindu Mendis,26,Sri Lanka,All-rounder,Excellent,None,35,115,15,7.8
+Wanindu Hasaranga,27,Sri Lanka,All-rounder,Excellent,RCB,22,135,58,7.2
+Maheesh Theekshana,24,Sri Lanka,Bowler,Good,CSK,8,90,48,7.5
+Matheesha Pathirana,22,Sri Lanka,Bowler,Excellent,CSK,5,75,52,8.2
+Dilshan Madushanka,24,Sri Lanka,Bowler,Good,MI,6,80,42,8.5
+Dunith Wellalage,22,Sri Lanka,Bowler,Rising,None,15,105,28,7.5
+Pramod Madushan,25,Sri Lanka,Bowler,Rising,None,6,75,25,8.8
+Nuwan Thushara,30,Sri Lanka,Bowler,Good,MI,5,70,32,8.2
+Tanzid Hasan,24,Bangladesh,Batsman,Good,None,28,135,0,0
+Litton Das,30,Bangladesh,Wicketkeeper,Good,KKR,32,128,0,0
+Towhid Hridoy,24,Bangladesh,Batsman,Rising,None,25,125,0,0
+Soumya Sarkar,32,Bangladesh,All-rounder,Good,None,28,130,22,8.5
+Mahedi Hasan,30,Bangladesh,All-rounder,Good,None,18,115,35,7.5
+Rishad Hossain,22,Bangladesh,Bowler,Rising,None,8,90,28,7.8
+Taskin Ahmed,30,Bangladesh,Bowler,Good,DC,10,95,48,8.2
+Tanzim Hasan,22,Bangladesh,Bowler,Rising,None,6,80,32,8.5
+Shoriful Islam,23,Bangladesh,Bowler,Good,None,8,85,38,8.8
+Mustafizur Rahman,29,Bangladesh,Bowler,Excellent,CSK,7,75,55,8.0
+Nahid Rana,22,Bangladesh,Bowler,Rising,None,5,70,18,9.0
+Jake Fraser-McGurk,22,Australia,Batsman,Excellent,DC,32,188,0,0
+Josh Inglis,30,Australia,Wicketkeeper,Good,None,35,145,0,0
+Cameron Green,26,Australia,All-rounder,Good,RCB,28,135,32,8.5
+Tim David,29,Australia,Batsman,Good,MI,32,158,0,0
+Aaron Hardie,25,Australia,All-rounder,Rising,PBKS,25,130,25,8.2
+Nathan Ellis,30,Australia,Bowler,Good,PBKS,10,90,42,8.5
+Spencer Johnson,28,Australia,Bowler,Good,None,8,85,35,8.8
+Xavier Bartlett,26,Australia,Bowler,Rising,None,12,95,28,8.5
+Lance Morris,27,Australia,Bowler,Rising,None,6,80,22,9.2
+Josh Philippe,27,Australia,Wicketkeeper,Good,None,30,148,0,0
+Ben McDermott,31,Australia,Wicketkeeper,Good,None,32,138,0,0
+Matthew Short,29,Australia,All-rounder,Good,None,28,142,18,8.2
+Tanveer Sangha,23,Australia,Bowler,Rising,DC,8,85,32,7.5
+Aidan O'Brien,21,Ireland,Batsman,Rising,None,25,125,0,0
+Curtis Campher,25,Ireland,All-rounder,Good,None,28,128,32,8.5
+Harry Tector,25,Ireland,Batsman,Good,None,32,122,0,0
+Lorcan Tucker,28,Ireland,Wicketkeeper,Good,None,28,135,0,0
+Paul Stirling,34,Ireland,Batsman,Good,None,35,145,0,0
+Mark Adair,29,Ireland,All-rounder,Good,None,18,125,38,8.2
+Joshua Little,25,Ireland,Bowler,Good,GT,8,85,42,8.5
+Craig Young,34,Ireland,Bowler,Good,None,10,90,35,8.8
+Roelof van der Merwe,40,Netherlands,All-rounder,Good,None,22,118,45,7.2
+Max O'Dowd,30,Netherlands,Batsman,Good,None,32,125,0,0
+Wesley Barresi,37,Netherlands,Batsman,Good,None,28,120,0,0
+Scott Edwards,28,Netherlands,Wicketkeeper,Good,None,30,115,0,0
+Bas de Leede,24,Netherlands,All-rounder,Good,None,25,128,35,8.2
+Logan van Beek,34,Netherlands,All-rounder,Good,None,20,125,42,8.5
+Paul van Meekeren,32,Netherlands,Bowler,Good,None,8,90,38,8.8
+Vikramjit Singh,24,Netherlands,Batsman,Rising,None,25,130,0,0

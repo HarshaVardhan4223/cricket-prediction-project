@@ -1,0 +1,12 @@
+name,role,batting_position,score,runs,avg,sr,wickets,economy,sort_order,country,venue,opposition,format
+Rohit Sharma,Opening Batsman,1-2,1166.09,10866.0,49.16,90.99,0.0,10.0,10,India,chinnaswamy,England,ODI
+Shubman Gill,Top-Order Batsman,1-3,341.2045,2328.0,58.2,101.87,0.0,10.0,10,India,chinnaswamy,England,ODI
+Virat Kohli,Top-Order Batsman,3-4,1479.96,13906.0,58.18,93.54,0.0,10.0,10,India,chinnaswamy,England,ODI
+KL Rahul,Wicketkeeper Batsman,1-5,331.3466666666667,2555.0,47.31,85.61,0.0,10.0,10,India,chinnaswamy,England,ODI
+Shreyas Iyer,Middle-Order Batsman,4-5,295.9366666666666,2161.0,47.17,98.0,0.0,10.0,10,India,chinnaswamy,England,ODI
+Ravindra Jadeja,Spin Bowling All-Rounder,7-8,510.57699999999994,2756.0,32.98,0.0,220.0,4.92,10,India,chinnaswamy,England,ODI
+Hardik Pandya,Pace Bowling All-Rounder,6-7,354.6715,1769.0,33.02,113.22,79.0,5.75,10,India,chinnaswamy,England,ODI
+Jasprit Bumrah,Fast Bowler,10-11,101.25,0.0,0.0,0.0,149.0,4.65,10,India,chinnaswamy,England,ODI
+Yuzvendra Chahal,Spin Bowler,9-11,84.2,0.0,0.0,0.0,121.0,5.26,10,India,chinnaswamy,England,ODI
+Kuldeep Yadav,Spin Bowler,9-11,103.0,0.0,0.0,0.0,156.0,5.0,10,India,chinnaswamy,England,ODI
+Mohammed Shami,Fast Bowler,11,119.60000000000001,0.0,0.0,0.0,195.0,5.58,11,India,chinnaswamy,England,ODI

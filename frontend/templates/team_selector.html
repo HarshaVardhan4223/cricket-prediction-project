@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing XI Selector - Cricket Analysis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <style>
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes slideIn { from { opacity: 0; transform: translateX(-30px); } to { opacity: 1; transform: translateX(0); } }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(50px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        @keyframes glow { 0%, 100% { box-shadow: 0 0 20px rgba(40, 167, 69, 0.5); } 50% { box-shadow: 0 0 40px rgba(40, 167, 69, 0.8), 0 0 60px rgba(40, 167, 69, 0.6); } }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; background: linear-gradient(135deg, #004aad 0%, #28a745 100%); min-height: 100vh; padding: 20px; position: relative; overflow-x: hidden; }
+        #particles-js { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; }
+        .container { max-width: 1400px; margin: 0 auto; position: relative; z-index: 1; }
+        
+        .header { text-align: center; margin-bottom: 40px; animation: fadeIn 0.8s ease-out; }
+        .header h1 { font-size: 3em; color: white; margin-bottom: 10px; text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); }
+        .header p { color: rgba(255, 255, 255, 0.9); font-size: 1.2em; }
+        .back-btn { display: inline-block; padding: 12px 25px; background: rgba(255, 255, 255, 0.2); color: white; text-decoration: none; border-radius: 10px; margin-bottom: 20px; transition: all 0.3s; backdrop-filter: blur(10px); }
+        .back-btn:hover { background: rgba(255, 255, 255, 0.3); transform: translateX(-5px); }
+        
+        .selection-panel { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border-radius: 20px; padding: 35px; margin-bottom: 35px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); }
+        .selection-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 25px; }
+        
+        .form-group { position: relative; }
+        label { display: block; color: #333; margin-bottom: 8px; font-weight: 600; font-size: 1.05em; }
+        .search-input { width: 100%; padding: 16px 18px; background: #f8f9fa; border: 2px solid #e9ecef; border-radius: 12px; color: #333; font-size: 1.1em; font-family: 'Poppins', sans-serif; transition: all 0.3s; }
+        .search-input:focus { outline: none; border-color: #28a745; box-shadow: 0 0 15px rgba(40, 167, 69, 0.3); }
+        
+        .dropdown { position: absolute; top: 100%; left: 0; right: 0; background: white; border: 2px solid #28a745; border-radius: 12px; max-height: 250px; overflow-y: auto; z-index: 1000; display: none; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); margin-top: 5px; }
+        .dropdown.show { display: block; }
+        .dropdown-item { padding: 12px 18px; cursor: pointer; transition: all 0.2s; border-bottom: 1px solid #f8f9fa; font-size: 0.95em; }
+        .dropdown-item:last-child { border-bottom: none; }
+        .dropdown-item:hover { background: linear-gradient(90deg, #28a745 0%, #20c997 100%); color: white; }
+        
+        select { width: 100%; padding: 16px 18px; background: #f8f9fa; border: 2px solid #e9ecef; border-radius: 12px; color: #333; font-size: 1.1em; font-family: 'Poppins', sans-serif; transition: all 0.3s; }
+        select:focus { outline: none; border-color: #28a745; box-shadow: 0 0 15px rgba(40, 167, 69, 0.3); }
+        
+        .btn-generate { width: 100%; padding: 20px; background: linear-gradient(135deg, #28a745 0%, #20c997 100%); border: none; border-radius: 15px; color: white; font-size: 1.5em; font-weight: 700; cursor: pointer; transition: all 0.3s; box-shadow: 0 8px 30px rgba(40, 167, 69, 0.4); text-transform: uppercase; letter-spacing: 1px; }
+        .btn-generate:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(40, 167, 69, 0.6); animation: glow 2s infinite; }
+        
+        .team-display { display: none; animation: slideUp 0.6s ease-out; }
+        .team-header-card { background: linear-gradient(135deg, rgba(40, 167, 69, 0.95) 0%, rgba(32, 201, 151, 0.95) 100%); border-radius: 20px; padding: 35px; margin-bottom: 25px; text-align: center; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); }
+        .team-header-card h2 { font-size: 2.5em; color: white; margin-bottom: 15px; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); }
+        
+        .team-meta { display: flex; justify-content: center; gap: 35px; flex-wrap: wrap; }
+        .meta-item { display: flex; align-items: center; gap: 10px; color: white; font-size: 1.1em; }
+        .meta-icon { font-size: 1.4em; }
+        
+        .field-container { background: rgba(255, 255, 255, 0.95); border-radius: 20px; padding: 35px; margin-bottom: 25px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); }
+        .field-title { text-align: center; font-size: 2em; color: #004aad; margin-bottom: 30px; font-weight: 700; }
+        
+        .batting-order { display: grid; gap: 15px; }
+        .player-slot { background: linear-gradient(145deg, #f8f9fa 0%, #e9ecef 100%); border: 2px solid #e9ecef; border-radius: 15px; padding: 20px 22px; display: flex; align-items: center; gap: 18px; transition: all 0.3s; animation: slideIn 0.5s ease-out backwards; }
+        .player-slot:nth-child(n) { animation-delay: calc(0.05s * var(--i)); }
+        .player-slot:hover { background: linear-gradient(145deg, #28a745 0%, #20c997 100%); border-color: #28a745; transform: translateX(10px); box-shadow: 0 5px 20px rgba(40, 167, 69, 0.3); }
+        .player-slot:hover .player-name, .player-slot:hover .player-role, .player-slot:hover .player-stats-mini { color: white !important; }
+        
+        .position-number { width: 50px; height: 50px; background: linear-gradient(135deg, #28a745 0%, #20c997 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: 700; color: white; flex-shrink: 0; box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3); }
+        .player-details { flex: 1; }
+        .player-name { font-size: 1.3em; color: #004aad; font-weight: 600; margin-bottom: 4px; }
+        .player-role { color: #666; font-size: 0.95em; }
+        .player-stats-mini { color: #999; font-size: 0.85em; margin-top: 5px; }
+        
+        .composition-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-bottom: 25px; }
+        .composition-card { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border-radius: 18px; padding: 30px; text-align: center; transition: all 0.3s; box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15); }
+        .composition-card:hover { background: linear-gradient(145deg, #28a745 0%, #20c997 100%); transform: scale(1.05); box-shadow: 0 10px 35px rgba(40, 167, 69, 0.4); }
+        .composition-card:hover .comp-title, .composition-card:hover .comp-value { color: white !important; }
+        .comp-icon { font-size: 3em; margin-bottom: 12px; }
+        .comp-title { font-size: 1.2em; color: #666; margin-bottom: 8px; }
+        .comp-value { font-size: 3em; color: #004aad; font-weight: 700; }
+        
+        .strengths-card { background: rgba(255, 255, 255, 0.95); border-radius: 18px; padding: 30px; box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15); }
+        .strengths-title { font-size: 1.8em; color: #004aad; margin-bottom: 20px; display: flex; align-items: center; gap: 12px; }
+        .strength-item { background: linear-gradient(145deg, #28a745 0%, #20c997 100%); border-radius: 12px; padding: 16px 20px; margin-bottom: 12px; color: white; font-size: 1.1em; display: flex; align-items: center; gap: 12px; box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3); }
+        .strength-icon { font-size: 1.4em; }
+        
+        .loading { display: none; text-align: center; padding: 60px; background: rgba(255, 255, 255, 0.95); border-radius: 20px; margin-top: 25px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); }
+        .spinner { width: 60px; height: 60px; margin: 0 auto 20px; border: 5px solid #f8f9fa; border-top: 5px solid #28a745; border-radius: 50%; animation: spin 1s linear infinite; }
+        .loading-text { color: #333; font-size: 1.2em; }
+        
+        @media (max-width: 968px) {
+            .header h1 { font-size: 2.2em; }
+            .selection-grid { grid-template-columns: 1fr; }
+            .composition-grid { grid-template-columns: 1fr 1fr; }
+            .team-meta { flex-direction: column; gap: 12px; }
+        }
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <div class="container">
+        <a href="/" class="back-btn">← Back to Home</a>
+        
+        <div class="header">
+            <h1>🏏 AI Playing XI Selector</h1>
+            <p>Generate optimal team based on conditions</p>
+        </div>
+
+        <div class="selection-panel">
+            <div class="selection-grid">
+                <div class="form-group">
+                    <label>Team</label>
+                    <input type="text" class="search-input" id="teamInput" placeholder="Type team name..." autocomplete="off">
+                    <div class="dropdown" id="teamDropdown"></div>
+                </div>
+
+                <div class="form-group">
+                    <label>Opposition</label>
+                    <input type="text" class="search-input" id="oppositionInput" placeholder="Type opposition..." autocomplete="off">
+                    <div class="dropdown" id="oppositionDropdown"></div>
+                </div>
+
+                <div class="form-group">
+                    <label>Venue</label>
+                    <input type="text" class="search-input" id="venueInput" placeholder="Type venue..." autocomplete="off">
+                    <div class="dropdown" id="venueDropdown"></div>
+                </div>
+
+                <div class="form-group">
+                    <label>Format</label>
+                    <select id="formatSelect">
+                        <option value="T20">T20</option>
+                        <option value="ODI">ODI</option>
+                    </select>
+                </div>
+            </div>
+
+            <button class="btn-generate" onclick="generateTeam()">Generate Playing XI</button>
+        </div>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <div class="loading-text">Selecting optimal team...</div>
+        </div>
+
+        <div id="teamDisplay" class="team-display">
+            <div class="team-header-card">
+                <h2 id="teamTitle">Team Playing XI</h2>
+                <div class="team-meta">
+                    <div class="meta-item"><span class="meta-icon">🏟️</span> <span id="metaVenue">Venue</span></div>
+                    <div class="meta-item"><span class="meta-icon">🆚</span> <span id="metaOpposition">vs Opposition</span></div>
+                    <div class="meta-item"><span class="meta-icon">📅</span> <span id="metaFormat">Format</span></div>
+                </div>
+            </div>
+
+            <div class="field-container">
+                <h3 class="field-title">Batting Order</h3>
+                <div id="battingOrder" class="batting-order"></div>
+            </div>
+
+            <div class="composition-grid">
+                <div class="composition-card">
+                    <div class="comp-icon">🏏</div>
+                    <div class="comp-title">Batsmen</div>
+                    <div class="comp-value" id="batsmenCount">5</div>
+                </div>
+                <div class="composition-card">
+                    <div class="comp-icon">⚡</div>
+                    <div class="comp-title">All-Rounders</div>
+                    <div class="comp-value" id="allRounderCount">2</div>
+                </div>
+                <div class="composition-card">
+                    <div class="comp-icon">🎯</div>
+                    <div class="comp-title">Bowlers</div>
+                    <div class="comp-value" id="bowlerCount">4</div>
+                </div>
+            </div>
+
+            <div class="strengths-card">
+                <h3 class="strengths-title"><span>💪</span><span>Team Strengths</span></h3>
+                <div id="strengthsList"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        particlesJS('particles-js', {
+            particles: {
+                number: { value: 60, density: { enable: true, value_area: 800 } },
+                color: { value: ['#004aad', '#28a745', '#dc3545', '#f8f9fa'] },
+                shape: { type: 'circle' },
+                opacity: { value: 0.4, random: true },
+                size: { value: 3, random: true },
+                line_linked: { enable: true, distance: 150, color: '#f8f9fa', opacity: 0.3, width: 1 },
+                move: { enable: true, speed: 2, direction: 'none', random: true }
+            },
+            retina_detect: true
+        });
+
+        let allTeams = [];
+        let allVenues = [];
+        let selectedTeam = '';
+        let selectedOpposition = '';
+        let selectedVenue = '';
+
+        (async function loadData() {
+            try {
+                console.log('Loading teams and venues...');
+                const teamsRes = await fetch('/api/teams');
+                const teamsData = await teamsRes.json();
+                allTeams = teamsData.teams || [];
+                console.log('Teams loaded:', allTeams.length);
+
+                const venuesRes = await fetch('/api/venues');
+                const venuesData = await venuesRes.json();
+                allVenues = venuesData.venues || [];
+                console.log('Venues loaded:', allVenues.length);
+
+                setupAllSearches();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                alert('Error loading teams and venues. Please refresh the page.');
+            }
+        })();
+
+        function setupAllSearches() {
+            setupSearch('teamInput', 'teamDropdown', allTeams, selectTeam);
+            setupSearch('oppositionInput', 'oppositionDropdown', allTeams, selectOpposition);
+            setupSearch('venueInput', 'venueDropdown', allVenues, selectVenue);
+        }
+
+        function setupSearch(inputId, dropdownId, dataArray, callback) {
+            const input = document.getElementById(inputId);
+            const dropdown = document.getElementById(dropdownId);
+
+            input.addEventListener('input', function() {
+                const query = this.value.toLowerCase().trim();
+                
+                if (!query) {
+                    dropdown.innerHTML = '';
+                    dropdown.classList.remove('show');
+                    return;
+                }
+
+                const filtered = dataArray.filter(item => 
+                    item.toLowerCase().includes(query)
+                );
+                
+                if (filtered.length > 0) {
+                    dropdown.innerHTML = filtered.slice(0, 15).map(item => 
+                        `<div class="dropdown-item" data-value="${item}">${item}</div>`
+                    ).join('');
+                    
+                    dropdown.querySelectorAll('.dropdown-item').forEach(item => {
+                        item.addEventListener('click', function() {
+                            const value = this.getAttribute('data-value');
+                            input.value = value;
+                            dropdown.classList.remove('show');
+                            callback(value);
+                        });
+                    });
+                    
+                    dropdown.classList.add('show');
+                } else {
+                    dropdown.innerHTML = '<div class="dropdown-item" style="color: #999;">No results found</div>';
+                    dropdown.classList.add('show');
+                }
+            });
+
+            input.addEventListener('focus', function() {
+                if (this.value.trim()) {
+                    const event = new Event('input');
+                    this.dispatchEvent(event);
+                }
+            });
+
+            document.addEventListener('click', function(e) {
+                if (!input.contains(e.target) && !dropdown.contains(e.target)) {
+                    dropdown.classList.remove('show');
+                }
+            });
+        }
+
+        function selectTeam(team) {
+            selectedTeam = team;
+        }
+
+        function selectOpposition(team) {
+            selectedOpposition = team;
+        }
+
+        function selectVenue(venue) {
+            selectedVenue = venue;
+        }
+
+        async function generateTeam() {
+            const team = selectedTeam || document.getElementById('teamInput').value.trim();
+            const opposition = selectedOpposition || document.getElementById('oppositionInput').value.trim();
+            const venue = selectedVenue || document.getElementById('venueInput').value.trim();
+            const format = document.getElementById('formatSelect').value;
+
+            if (!team || !opposition || !venue) {
+                alert('⚠️ Please fill all fields!');
+                return;
+            }
+
+            if (team === opposition) {
+                alert('⚠️ Please select different teams!');
+                return;
+            }
+
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('teamDisplay').style.display = 'none';
+
+            try {
+                const response = await fetch('/api/select-xi', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ country: team, opposition: opposition, venue: venue, format: format })
+                });
+
+                const data = await response.json();
+                
+                if (data.success) {
+                    displayTeam(team, opposition, venue, format, data);
+                    document.getElementById('loading').style.display = 'none';
+                    document.getElementById('teamDisplay').style.display = 'block';
+                    document.getElementById('teamDisplay').scrollIntoView({ behavior: 'smooth' });
+                } else {
+                    alert('❌ Error: ' + data.error);
+                    document.getElementById('loading').style.display = 'none';
+                }
+            } catch (error) {
+                alert('❌ Error: ' + error);
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+
+        function displayTeam(team, opposition, venue, format, data) {
+            document.getElementById('teamTitle').textContent = `${team} Playing XI`;
+            document.getElementById('metaVenue').textContent = venue;
+            document.getElementById('metaOpposition').textContent = `vs ${opposition}`;
+            document.getElementById('metaFormat').textContent = format === 'T20' ? 'T20 International' : 'One Day International';
+
+            const battingOrder = document.getElementById('battingOrder');
+            battingOrder.innerHTML = data.players.map((player, index) => {
+                const stats = player.wickets > 0
+                    ? `Wickets: ${player.wickets} | Economy: ${player.economy?.toFixed(2)}`
+                    : `Runs: ${Math.round(player.runs)} | Avg: ${player.avg?.toFixed(1)} | SR: ${player.sr?.toFixed(1)}`;
+
+                return `
+                    <div class="player-slot" style="--i: ${index + 1}">
+                        <div class="position-number">${index + 1}</div>
+                        <div class="player-details">
+                            <div class="player-name">${player.name}</div>
+                            <div class="player-role">${player.role} (${player.batting_position})</div>
+                            <div class="player-stats-mini">${stats}</div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            document.getElementById('batsmenCount').textContent = data.composition.batsmen;
+            document.getElementById('allRounderCount').textContent = data.composition.all_rounders;
+            document.getElementById('bowlerCount').textContent = data.composition.bowlers;
+
+            document.getElementById('strengthsList').innerHTML = data.strengths.map(s => `
+                <div class="strength-item">
+                    <span class="strength-icon">${s.charAt(0)}</span>
+                    <span>${s.substring(2)}</span>
+                </div>
+            `).join('');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,396 @@
+venue,season,team1,team2,team1_runs,team2_runs,team1_wickets,team2_wickets,team1_strike_rate,team2_strike_rate,team1_boundaries,team2_boundaries,team1_powerplay_runs,team2_powerplay_runs,team1_death_runs,team2_death_runs,total_runs,run_difference,team1_won,winner
+Melbourne Cricket Ground,2016/17,Australia,Sri Lanka,168,172,6,5,134.4,137.6,13,21,46,54,27,18,340,4,0,Sri Lanka
+"Simonds Stadium, South Geelong",2016/17,Australia,Sri Lanka,173,176,10,8,140.65040650406505,141.93548387096774,16,24,57,44,25,50,349,3,0,Sri Lanka
+Adelaide Oval,2016/17,Australia,Sri Lanka,187,146,6,10,149.6,126.95652173913044,22,17,59,56,19,6,333,41,1,Australia
+"Bready Cricket Club, Magheramason",2016,Hong Kong,Ireland,169,129,5,10,132.03125,106.61157024793388,18,14,60,25,23,4,298,40,1,Hong Kong
+Harare Sports Club,2016,Zimbabwe,India,170,168,7,6,137.09677419354838,130.2325581395349,21,19,40,42,37,25,338,2,1,Zimbabwe
+Harare Sports Club,2016,Zimbabwe,India,99,103,9,0,79.2,125.60975609756098,10,11,30,36,13,0,202,4,0,India
+Harare Sports Club,2016,India,Zimbabwe,138,135,6,6,112.19512195121952,108.87096774193547,15,16,29,32,42,28,273,3,1,India
+McLean Park,2016/17,Bangladesh,New Zealand,141,143,8,4,105.22388059701493,130.0,12,15,32,41,24,13,284,2,0,New Zealand
+Bay Oval,2016/17,New Zealand,Bangladesh,195,148,7,10,157.25806451612902,126.49572649572649,23,14,48,41,20,1,343,47,1,New Zealand
+Bay Oval,2016/17,New Zealand,Bangladesh,194,167,4,6,159.01639344262296,135.77235772357724,23,22,34,67,39,33,361,27,1,New Zealand
+Eden Park,2016/17,South Africa,New Zealand,185,107,6,10,151.63934426229508,117.58241758241759,25,14,51,32,28,0,292,78,1,South Africa
+The Rose Bowl,2017,South Africa,England,142,143,3,1,117.35537190082646,160.67415730337078,13,18,42,53,30,0,285,1,0,England
+County Ground,2017,South Africa,England,174,171,8,6,139.2,135.71428571428572,22,23,42,47,29,23,345,3,1,South Africa
+Sophia Gardens,2017,England,South Africa,181,162,8,7,147.15447154471545,131.70731707317074,23,18,44,31,21,38,343,19,1,England
+Riverside Ground,2017,West Indies,England,176,155,9,10,138.58267716535434,128.099173553719,23,17,71,59,27,22,331,21,1,West Indies
+Green Park,2016/17,India,England,147,148,7,3,114.84375,130.97345132743362,14,15,44,47,24,14,295,1,0,England
+"Vidarbha Cricket Association Stadium, Jamtha",2016/17,India,England,144,139,8,6,117.07317073170731,113.00813008130082,12,11,45,36,19,20,283,5,1,India
+M Chinnaswamy Stadium,2016/17,India,England,202,127,6,10,157.8125,124.50980392156863,23,17,45,52,46,0,329,75,1,India
+Central Broward Regional Park Stadium Turf Ground,2016,West Indies,India,245,244,6,4,194.44444444444443,196.7741935483871,34,33,77,67,27,28,489,1,1,West Indies
+Central Broward Regional Park Stadium Turf Ground,2016,West Indies,India,143,15,10,0,116.26016260162602,125.0,18,1,53,14,20,0,158,128,1,West Indies
+Melbourne Cricket Ground,2016/17,Australia,New Zealand,151,111,4,8,123.77049180327869,91.73553719008265,14,8,26,29,19,31,262,40,1,Australia
+"Simonds Stadium, South Geelong",2016/17,New Zealand,Australia,101,61,9,9,84.16666666666667,77.21518987341773,10,7,39,28,16,0,162,40,1,New Zealand
+Adelaide Oval,2016/17,New Zealand,Australia,113,66,8,10,91.869918699187,66.0,10,4,34,10,21,0,179,47,1,New Zealand
+Sinhalese Sports Club Ground,2016,Sri Lanka,Australia,59,63,8,0,48.36065573770492,128.57142857142858,5,9,15,55,8,0,122,4,0,Australia
+Dubai International Cricket Stadium,2016/17,West Indies,Pakistan,115,116,10,1,91.26984126984127,128.88888888888889,12,17,24,35,16,0,231,1,0,Pakistan
+Dubai International Cricket Stadium,2016/17,Pakistan,West Indies,160,144,4,9,128.0,111.62790697674419,15,16,30,20,28,31,304,16,1,Pakistan
+Sheikh Zayed Stadium,2016/17,West Indies,Pakistan,103,108,5,2,85.12396694214877,116.12903225806453,7,11,25,34,14,0,211,5,0,Pakistan
+Saxton Oval,2016/17,New Zealand,Pakistan,118,104,9,10,92.1875,81.25,11,10,35,19,21,18,222,14,1,New Zealand
+Asian Institute of Technology Ground,2016/17,India,Pakistan,121,104,5,6,94.53125,84.5528455284553,10,8,25,30,26,20,225,17,1,India
+Sydney Cricket Ground,2017/18,New Zealand,Australia,117,96,9,3,92.85714285714286,135.2112676056338,7,15,25,42,22,0,213,21,1,New Zealand
+Bellerive Oval,2017/18,England,Australia,155,161,9,5,125.0,141.2280701754386,18,20,59,58,19,22,316,6,0,Australia
+Melbourne Cricket Ground,2017/18,England,Australia,137,138,7,3,107.87401574803151,151.64835164835165,14,19,39,44,31,0,275,1,0,Australia
+Westpac Stadium,2017/18,New Zealand,England,196,184,5,9,154.3307086614173,150.81967213114754,23,26,46,58,25,21,380,12,1,New Zealand
+Eden Park,2017/18,New Zealand,Australia,243,245,6,5,188.37209302325581,196.0,32,33,63,77,25,17,488,2,0,Australia
+Seddon Park,2017/18,England,New Zealand,194,192,7,4,155.20000000000002,154.83870967741936,26,23,39,69,46,21,386,2,1,England
+Eden Park,2017/18,New Zealand,Australia,150,121,9,3,120.96774193548387,135.95505617977528,16,13,58,54,21,0,271,29,1,New Zealand
+Sheikh Zayed Stadium,2016/17,Scotland,Hong Kong,189,165,3,6,152.41935483870967,135.24590163934425,17,17,39,37,35,33,354,24,1,Scotland
+Sheikh Zayed Stadium,2016/17,Oman,Netherlands,146,148,7,5,114.96062992125984,123.33333333333334,14,17,41,42,30,25,294,2,0,Netherlands
+Sheikh Zayed Stadium,2016/17,Hong Kong,Oman,87,89,10,3,76.99115044247787,134.84848484848484,8,17,37,41,11,0,176,2,0,Oman
+Sheikh Zayed Stadium,2016/17,Scotland,Netherlands,148,141,7,10,120.32520325203254,114.6341463414634,15,13,17,46,33,16,289,7,1,Scotland
+Dubai International Cricket Stadium,2016/17,Ireland,United Arab Emirates,160,136,6,7,129.03225806451613,107.08661417322836,19,17,40,29,26,36,296,24,1,Ireland
+Dubai International Cricket Stadium,2016/17,Hong Kong,Netherlands,183,92,4,10,145.23809523809524,98.9247311827957,21,8,61,30,41,0,275,91,1,Hong Kong
+Dubai International Cricket Stadium,2016/17,Oman,Scotland,133,134,10,3,104.72440944881889,113.55932203389831,15,12,31,37,25,15,267,1,0,Scotland
+Dubai International Cricket Stadium,2016/17,Ireland,Scotland,211,113,6,10,170.16129032258064,122.82608695652173,29,15,70,65,40,0,324,98,1,Ireland
+Mangaung Oval,2017/18,South Africa,Bangladesh,195,175,4,9,156.0,137.79527559055117,20,21,62,50,37,25,370,20,1,South Africa
+Senwes Park,2017/18,South Africa,Bangladesh,224,141,4,10,183.60655737704917,120.51282051282051,31,16,45,44,59,8,365,83,1,South Africa
+"Kensington Oval, Bridgetown",2017,West Indies,Pakistan,111,115,8,4,89.51612903225806,107.4766355140187,12,13,33,39,26,4,226,4,0,Pakistan
+"Queen's Park Oval, Port of Spain",2017,Pakistan,West Indies,132,129,10,8,109.09090909090908,104.8780487804878,16,15,33,29,34,25,261,3,1,Pakistan
+R Premadasa Stadium,2016/17,Bangladesh,Sri Lanka,155,158,6,4,122.04724409448819,137.3913043478261,14,20,45,52,23,19,313,3,0,Sri Lanka
+R Premadasa Stadium,2016/17,Bangladesh,Sri Lanka,176,131,9,10,140.79999999999998,119.0909090909091,21,15,63,44,24,7,307,45,1,Bangladesh
+"Queen's Park Oval, Port of Spain",2017,Pakistan,West Indies,137,138,8,3,112.29508196721312,148.38709677419354,12,20,41,46,14,0,275,1,0,West Indies
+"Queen's Park Oval, Port of Spain",2017,West Indies,Pakistan,124,127,8,3,102.4793388429752,108.54700854700855,14,14,40,38,29,11,251,3,0,Pakistan
+North Sydney Oval,2017/18,England,Australia,132,134,9,4,104.76190476190477,136.73469387755102,13,19,17,42,25,0,266,2,0,Australia
+Manuka Oval,2017/18,England,Australia,152,112,6,10,122.58064516129032,99.11504424778761,16,12,35,42,27,2,264,40,1,England
+Manuka Oval,2017/18,Australia,England,178,181,2,6,144.71544715447155,156.0344827586207,27,22,46,36,40,13,359,3,0,England
+Sheikh Zayed Stadium,2017,Papua New Guinea,United Arab Emirates,102,108,10,5,90.2654867256637,116.12903225806453,8,14,13,49,5,0,210,6,0,United Arab Emirates
+Sheikh Zayed Stadium,2017,United Arab Emirates,Papua New Guinea,180,150,3,10,141.73228346456693,120.0,20,13,40,56,32,21,330,30,1,United Arab Emirates
+Sheikh Zayed Stadium,2017,Papua New Guinea,United Arab Emirates,128,130,5,5,104.91803278688525,109.24369747899159,9,10,44,42,18,17,258,2,0,United Arab Emirates
+"Sabina Park, Kingston",2017,India,West Indies,190,194,6,1,152.0,163.0252100840336,26,26,63,64,26,15,384,4,0,West Indies
+"R.Premadasa Stadium, Khettarama",2017,Sri Lanka,India,170,174,7,3,138.21138211382114,145.0,22,17,57,42,34,25,344,4,0,India
+Saxton Oval,2017/18,New Zealand,West Indies,187,140,7,10,150.80645161290323,121.73913043478262,23,17,38,42,34,21,327,47,1,New Zealand
+Bay Oval,2017/18,New Zealand,West Indies,243,124,5,9,195.96774193548387,118.0952380952381,29,17,62,69,35,0,367,119,1,New Zealand
+Westpac Stadium,2017/18,Pakistan,New Zealand,105,106,10,3,86.77685950413223,108.16326530612245,8,12,23,26,21,0,211,1,0,New Zealand
+Eden Park,2017/18,Pakistan,New Zealand,201,153,4,10,155.8139534883721,131.89655172413794,27,16,57,38,30,8,354,48,1,Pakistan
+Bay Oval,2017/18,Pakistan,New Zealand,181,163,6,6,147.15447154471545,131.4516129032258,22,19,44,47,45,30,344,18,1,Pakistan
+Gaddafi Stadium,2017/18,Pakistan,ICC World XI,197,177,5,7,161.47540983606555,142.74193548387098,25,26,48,45,47,29,374,20,1,Pakistan
+Gaddafi Stadium,2017/18,Pakistan,ICC World XI,174,175,6,3,134.88372093023256,144.62809917355372,21,18,39,48,33,39,349,1,0,ICC World XI
+Gaddafi Stadium,2017/18,Pakistan,ICC World XI,183,150,4,8,150.0,121.95121951219512,21,20,51,42,40,13,333,33,1,Pakistan
+JSCA International Stadium Complex,2017/18,Australia,India,118,49,8,1,103.50877192982458,148.4848484848485,13,8,48,48,7,0,167,69,1,Australia
+Barsapara Cricket Stadium,2017/18,India,Australia,118,122,10,2,94.39999999999999,128.42105263157896,11,15,34,33,14,0,240,4,0,Australia
+Edgbaston,2018,England,Australia,221,193,5,10,181.14754098360655,156.91056910569105,33,26,70,55,25,19,414,28,1,England
+Old Trafford,2018,England,India,159,163,8,2,127.2,142.98245614035088,20,21,53,49,20,17,322,4,0,India
+Sophia Gardens,2018,India,England,148,149,5,5,120.32520325203254,125.21008403361344,14,17,30,42,31,22,297,1,0,England
+County Ground,2018,England,India,198,201,9,3,163.63636363636365,177.87610619469027,31,30,72,70,23,31,399,3,0,India
+Arun Jaitley Stadium,2017/18,India,New Zealand,202,149,3,8,164.22764227642276,118.25396825396825,26,17,44,29,41,32,351,53,1,India
+Saurashtra Cricket Association Stadium,2017/18,New Zealand,India,196,156,2,7,155.55555555555557,128.92561983471074,24,20,45,40,22,30,352,40,1,New Zealand
+Greenfield International Stadium,2017/18,India,New Zealand,67,61,5,6,136.73469387755102,122.0,7,6,48,38,0,0,128,6,1,India
+Sheikh Zayed Stadium,2017/18,Sri Lanka,Pakistan,102,103,10,3,91.07142857142857,97.16981132075472,9,8,39,20,11,3,205,1,0,Pakistan
+Sheikh Zayed Stadium,2017/18,Sri Lanka,Pakistan,124,125,9,8,101.63934426229508,100.80645161290323,12,6,41,36,16,24,249,1,0,Pakistan
+Gaddafi Stadium,2017/18,Pakistan,Sri Lanka,180,144,3,9,145.16129032258064,118.0327868852459,18,16,44,37,45,29,324,36,1,Pakistan
+The Wanderers Stadium,2017/18,India,South Africa,203,175,5,9,157.36434108527132,138.88888888888889,27,22,75,39,26,20,378,28,1,India
+SuperSport Park,2017/18,India,South Africa,188,189,4,4,155.37190082644628,161.53846153846155,27,23,45,49,42,25,377,1,0,South Africa
+Newlands,2017/18,India,South Africa,172,165,7,6,136.5079365079365,135.24590163934425,17,20,54,24,33,44,337,7,1,India
+Barabati Stadium,2017/18,India,Sri Lanka,180,87,3,10,144.0,88.77551020408163,22,7,49,40,39,0,267,93,1,India
+Holkar Cricket Stadium,2017/18,India,Sri Lanka,260,172,5,9,206.34920634920638,154.95495495495496,42,21,59,58,37,0,432,88,1,India
+Wankhede Stadium,2017/18,Sri Lanka,India,135,139,7,5,107.14285714285714,116.80672268907564,15,14,34,36,25,23,274,4,0,India
+Coolidge Cricket Ground,2017/18,West Indies,Sri Lanka,154,107,6,10,125.20325203252031,87.70491803278688,19,7,40,44,34,9,261,47,1,West Indies
+Sharjah Cricket Stadium,2017/18,New Zealand,Pakistan,150,111,8,7,123.96694214876034,87.4015748031496,16,5,42,30,13,15,261,39,1,New Zealand
+Sharjah Cricket Stadium,2017/18,New Zealand,Pakistan,126,84,4,10,102.4390243902439,72.41379310344827,12,8,29,42,37,11,210,42,1,New Zealand
+Sharjah Cricket Stadium,2017/18,Pakistan,New Zealand,89,93,8,3,73.55371900826447,140.9090909090909,5,15,25,61,13,0,182,4,0,New Zealand
+Senwes Park,2017/18,South Africa,India,164,168,4,3,133.33333333333331,142.3728813559322,24,23,36,59,38,20,332,4,0,India
+Buffalo Park,2017/18,South Africa,India,142,144,7,1,114.51612903225808,122.03389830508475,14,15,37,39,31,24,286,2,0,India
+The Wanderers Stadium,2017/18,India,South Africa,133,134,10,5,122.01834862385321,116.52173913043478,20,17,48,34,3,23,267,1,0,South Africa
+Newlands,2017/18,India,South Africa,166,112,4,10,129.6875,100.9009009009009,23,12,28,21,32,3,278,54,1,India
+The Cooper Associates County Ground,2018,New Zealand,South Africa,216,150,1,6,175.609756097561,122.95081967213115,29,22,54,41,34,24,366,66,1,New Zealand
+The Cooper Associates County Ground,2018,England,South Africa,250,129,3,6,206.61157024793386,106.61157024793388,42,18,69,26,50,14,379,121,1,England
+The Cooper Associates County Ground,2018,England,South Africa,160,166,5,4,131.14754098360655,140.67796610169492,21,23,43,49,37,25,326,6,0,South Africa
+The Cooper Associates County Ground,2018,England,New Zealand,172,118,8,10,139.83739837398375,102.60869565217392,23,16,39,39,33,11,290,54,1,England
+County Ground,2018,South Africa,New Zealand,148,151,6,2,114.72868217054264,158.94736842105263,16,22,37,50,31,0,299,3,0,New Zealand
+County Ground,2018,New Zealand,England,129,130,10,3,116.21621621621621,134.020618556701,18,19,32,41,2,0,259,1,0,England
+County Ground,2018,New Zealand,England,137,141,9,3,113.22314049586777,134.28571428571428,18,21,52,49,21,4,278,4,0,England
+"Grange Cricket Club, Raeburn Place",2018,Pakistan,Scotland,204,156,4,6,164.51612903225808,126.82926829268293,25,18,44,50,40,31,360,48,1,Pakistan
+"Grange Cricket Club, Raeburn Place",2018,Pakistan,Scotland,166,82,6,10,127.69230769230768,91.11111111111111,18,8,52,27,41,0,248,84,1,Pakistan
+"Shere Bangla National Stadium, Mirpur",2017/18,Bangladesh,Sri Lanka,193,194,5,4,146.21212121212122,179.62962962962962,21,31,63,65,29,0,387,1,0,Sri Lanka
+Sylhet International Cricket Stadium,2017/18,Sri Lanka,Bangladesh,210,135,4,10,164.0625,111.5702479338843,29,15,59,36,47,6,345,75,1,Sri Lanka
+Brabourne Stadium,2017/18,India,Australia,152,156,5,4,125.6198347107438,140.54054054054055,26,22,46,54,40,9,308,4,0,Australia
+Brabourne Stadium,2017/18,Australia,England,149,150,8,2,120.16129032258065,145.63106796116506,18,23,46,48,22,0,299,1,0,England
+Brabourne Stadium,2017/18,India,England,198,199,4,3,153.48837209302326,171.55172413793102,29,28,48,66,44,16,397,1,0,England
+Brabourne Stadium,2017/18,Australia,India,186,150,5,5,148.8,120.96774193548387,26,18,46,34,30,33,336,36,1,Australia
+Brabourne Stadium,2017/18,England,Australia,96,97,10,2,88.88888888888889,136.61971830985914,11,18,37,41,1,0,193,1,0,Australia
+Brabourne Stadium,2017/18,England,India,107,108,10,2,93.04347826086956,104.85436893203884,12,13,51,40,4,0,215,1,0,India
+Brabourne Stadium,2017/18,Australia,England,209,152,4,9,169.9186991869919,122.58064516129032,37,15,52,48,38,12,361,57,1,Australia
+"R.Premadasa Stadium, Khettarama",2017/18,India,Sri Lanka,174,175,5,5,139.2,148.3050847457627,20,21,35,72,24,21,349,1,0,Sri Lanka
+"R.Premadasa Stadium, Khettarama",2017/18,Bangladesh,India,139,140,8,4,104.51127819548873,122.80701754385966,15,16,43,46,16,14,279,1,0,India
+"R.Premadasa Stadium, Khettarama",2017/18,Sri Lanka,Bangladesh,214,215,6,5,167.1875,173.38709677419354,27,28,61,70,35,26,429,1,0,Bangladesh
+"R.Premadasa Stadium, Khettarama",2017/18,Sri Lanka,India,152,153,9,4,125.6198347107438,140.36697247706422,15,17,51,44,14,9,305,1,0,India
+"R.Premadasa Stadium, Khettarama",2017/18,India,Bangladesh,176,159,3,6,144.2622950819672,126.19047619047619,23,21,48,47,35,29,335,17,1,India
+"R.Premadasa Stadium, Khettarama",2017/18,Sri Lanka,Bangladesh,159,160,7,8,127.2,129.03225806451613,17,16,29,49,30,29,319,1,0,Bangladesh
+"R.Premadasa Stadium, Khettarama",2017/18,Bangladesh,India,166,168,8,6,133.8709677419355,137.70491803278688,19,22,36,56,31,34,334,2,0,India
+Bay Oval,2017/18,New Zealand,West Indies,167,159,6,6,135.77235772357724,132.5,23,21,47,42,13,25,326,8,1,New Zealand
+Bay Oval,2017/18,New Zealand,West Indies,185,79,3,8,148.0,64.22764227642277,28,6,50,32,23,6,264,106,1,New Zealand
+Pukekura Park,2017/18,New Zealand,West Indies,134,133,7,7,109.8360655737705,107.25806451612902,13,12,50,38,21,17,267,1,1,New Zealand
+Seddon Park,2017/18,West Indies,New Zealand,139,143,5,3,113.9344262295082,134.9056603773585,20,19,54,47,16,0,282,4,0,New Zealand
+Sinhalese Sports Club Ground,2017/18,Sri Lanka,Pakistan,124,133,6,9,100.8130081300813,108.130081300813,12,16,28,37,21,11,257,9,0,Pakistan
+Nondescripts Cricket Club Ground,2017/18,Pakistan,Sri Lanka,72,73,10,3,61.53846153846154,81.11111111111111,3,7,27,34,3,0,145,1,0,Sri Lanka
+National Stadium,2018,Pakistan,West Indies,203,60,5,9,163.70967741935485,70.58823529411765,26,8,54,21,43,0,263,143,1,Pakistan
+National Stadium,2018,Pakistan,West Indies,205,123,3,10,168.0327868852459,105.12820512820514,29,17,54,30,32,16,328,82,1,Pakistan
+National Stadium,2018,West Indies,Pakistan,153,154,6,2,126.44628099173553,149.51456310679612,20,20,27,62,43,0,307,1,0,Pakistan
+"R.Premadasa Stadium, Khettarama",2018/19,England,Sri Lanka,187,157,8,10,153.27868852459017,129.75206611570246,27,19,58,41,22,31,344,30,1,England
+"The Village, Malahide",2018,India,Ireland,208,132,5,9,165.07936507936506,109.09090909090908,28,14,54,41,30,6,340,76,1,India
+"The Village, Malahide",2018,India,Ireland,213,70,4,10,161.36363636363635,89.74358974358975,24,8,53,29,44,0,283,143,1,India
+Lord's,2018,West Indies,ICC World XI,199,127,4,9,159.20000000000002,118.69158878504673,27,15,49,25,40,0,326,72,1,West Indies
+Hazelaarweg,2018,Netherlands,Ireland,144,140,10,8,116.12903225806453,111.11111111111111,15,13,50,32,17,39,284,4,1,Netherlands
+Hazelaarweg,2018,Ireland,Netherlands,158,159,6,6,129.5081967213115,132.5,18,19,59,62,21,22,317,1,0,Netherlands
+Sportpark Het Schootsveld,2018,Ireland,Scotland,205,159,5,5,164.0,123.25581395348837,29,18,66,58,32,16,364,46,1,Ireland
+Sportpark Het Schootsveld,2018,Scotland,Ireland,185,185,4,6,146.8253968253968,148.0,22,20,72,46,34,25,370,0,0,Ireland
+VRA Ground,2018,Netherlands,Scotland,160,161,6,3,130.0813008130081,151.88679245283018,17,26,56,74,18,5,321,1,0,Scotland
+VRA Ground,2018,Scotland,Netherlands,221,106,3,9,175.3968253968254,119.10112359550563,28,8,75,42,35,0,327,115,1,Scotland
+"R.Premadasa Stadium, Khettarama",2018,South Africa,Sri Lanka,98,99,10,7,96.07843137254902,98.01980198019803,12,14,46,44,0,0,197,1,0,Sri Lanka
+Harare Sports Club,2018,Pakistan,Zimbabwe,182,108,4,9,146.7741935483871,98.18181818181819,18,8,42,25,40,3,290,74,1,Pakistan
+Harare Sports Club,2018,Pakistan,Australia,116,117,10,1,94.3089430894309,169.56521739130434,11,14,23,52,21,0,233,1,0,Australia
+Harare Sports Club,2018,Australia,Zimbabwe,229,129,2,9,184.6774193548387,100.78125,31,17,69,58,33,8,358,100,1,Australia
+Harare Sports Club,2018,Zimbabwe,Pakistan,162,163,4,3,131.70731707317074,134.71074380165288,20,15,45,53,28,26,325,1,0,Pakistan
+Harare Sports Club,2018,Pakistan,Australia,194,149,7,7,155.20000000000002,122.13114754098359,28,15,47,42,38,21,343,45,1,Pakistan
+Harare Sports Club,2018,Zimbabwe,Australia,151,154,9,5,121.7741935483871,122.22222222222223,17,12,39,29,25,19,305,3,0,Australia
+Harare Sports Club,2018,Australia,Pakistan,183,187,8,4,147.58064516129033,153.27868852459017,22,26,51,47,24,31,370,4,0,Pakistan
+Buffalo Park,2018/19,South Africa,Zimbabwe,160,126,6,10,129.03225806451613,116.66666666666667,18,15,50,29,15,0,286,34,1,South Africa
+Senwes Park,2018/19,Zimbabwe,South Africa,132,135,7,4,108.19672131147541,129.80769230769232,16,19,32,49,23,0,267,3,0,South Africa
+Newlands,2018/19,South Africa,Pakistan,192,186,6,9,157.37704918032787,147.61904761904762,23,22,48,53,25,32,378,6,1,South Africa
+The Wanderers Stadium,2018/19,South Africa,Pakistan,188,181,3,7,148.03149606299212,143.65079365079364,22,26,43,68,49,27,369,7,1,South Africa
+SuperSport Park,2018/19,Pakistan,South Africa,168,141,9,9,132.28346456692915,112.79999999999998,21,17,45,23,31,25,309,27,1,Pakistan
+Newlands,2018/19,Sri Lanka,South Africa,134,134,7,8,106.34920634920636,110.74380165289257,12,16,41,32,23,15,268,0,0,South Africa
+SuperSport Park,2018/19,South Africa,Sri Lanka,180,164,3,9,145.16129032258064,132.25806451612902,21,24,39,47,35,39,344,16,1,South Africa
+The Wanderers Stadium,2018/19,South Africa,Sri Lanka,198,137,2,10,159.6774193548387,129.24528301886792,27,16,36,52,39,0,335,61,1,South Africa
+Mangaung Oval,2018,South Africa,Bangladesh,169,137,4,5,140.83333333333334,107.03125,26,14,44,42,38,22,306,32,1,South Africa
+Mangaung Oval,2018,South Africa,Bangladesh,64,41,4,6,116.36363636363636,74.54545454545455,6,0,37,24,0,0,105,23,1,South Africa
+North Sydney Oval,2018/19,New Zealand,Australia,162,164,5,4,128.57142857142858,147.74774774774775,23,27,34,48,37,7,326,2,0,Australia
+Allan Border Field,2018/19,New Zealand,Australia,145,149,8,4,115.07936507936508,130.70175438596493,17,20,50,41,12,16,294,4,0,Australia
+Manuka Oval,2018/19,New Zealand,Australia,103,105,10,1,87.28813559322035,132.91139240506328,7,18,28,36,12,0,208,2,0,Australia
+Carrara Oval,2018/19,South Africa,Australia,108,87,6,7,168.75,135.9375,13,9,63,46,0,0,195,21,1,South Africa
+"Brisbane Cricket Ground, Woolloongabba",2018/19,Australia,India,158,169,4,7,147.66355140186914,152.25225225225225,17,21,38,52,0,0,327,11,0,India
+Sydney Cricket Ground,2018/19,Australia,India,164,168,6,4,128.125,136.58536585365854,21,20,45,64,34,29,332,4,0,India
+YMCA Cricket Club,2018,Ireland,New Zealand,136,142,8,0,107.93650793650794,208.82352941176472,17,26,30,65,18,0,278,6,0,New Zealand
+YMCA Cricket Club,2018,Ireland,Bangladesh,134,135,8,6,109.8360655737705,108.0,16,17,44,32,19,24,269,1,0,Bangladesh
+"The Village, Malahide, Dublin",2018,Ireland,Bangladesh,124,125,8,6,99.2,103.30578512396693,14,15,23,41,19,15,249,1,0,Bangladesh
+"Pembroke Cricket Club, Sandymount",2018,Bangladesh,Ireland,151,152,4,4,118.8976377952756,122.58064516129032,18,19,44,27,33,25,303,1,0,Ireland
+"Warner Park, Basseterre",2018,Bangladesh,West Indies,143,93,9,3,113.4920634920635,163.1578947368421,17,13,43,45,11,0,236,50,1,Bangladesh
+Central Broward Regional Park Stadium Turf Ground,2018,Bangladesh,West Indies,171,159,5,9,140.1639344262295,123.25581395348837,23,19,34,47,23,25,330,12,1,Bangladesh
+Central Broward Regional Park Stadium Turf Ground,2018,Bangladesh,West Indies,184,135,5,7,144.88188976377953,125.0,23,15,71,28,30,0,319,49,1,Bangladesh
+Sportpark Maarschalkerweerd,2018,Thailand,Ireland,92,93,7,3,73.01587301587301,90.29126213592234,7,9,21,31,11,0,185,1,0,Ireland
+VRA Ground,2018,Uganda,Scotland,43,47,10,1,43.87755102040816,111.90476190476191,1,7,10,33,0,0,90,4,0,Scotland
+Sportpark Maarschalkerweerd,2018,Netherlands,United Arab Emirates,137,138,3,4,111.3821138211382,111.29032258064515,14,16,37,24,24,22,275,1,0,United Arab Emirates
+VRA Ground,2018,Papua New Guinea,Bangladesh,84,86,6,2,67.2,90.52631578947368,5,10,16,37,21,0,170,2,0,Bangladesh
+VRA Ground,2018,Scotland,Ireland,98,99,2,1,78.4,99.0,4,8,16,35,18,0,197,1,0,Ireland
+Sportpark Maarschalkerweerd,2018,Netherlands,Bangladesh,42,44,10,3,37.16814159292036,88.0,3,7,16,28,1,0,86,2,0,Bangladesh
+VRA Ground,2018,United Arab Emirates,Papua New Guinea,83,84,10,8,65.87301587301587,67.74193548387096,6,3,20,22,22,10,167,1,0,Papua New Guinea
+Sportpark Maarschalkerweerd,2018,Scotland,Thailand,97,70,7,10,79.50819672131148,66.66666666666666,9,3,12,28,21,0,167,27,1,Scotland
+VRA Ground,2018,Uganda,Ireland,78,79,8,2,61.417322834645674,102.59740259740259,3,7,10,39,15,0,157,1,0,Ireland
+Sportpark Maarschalkerweerd,2018,United Arab Emirates,Bangladesh,39,40,10,2,39.795918367346935,93.02325581395348,1,6,15,31,0,0,79,1,0,Bangladesh
+VRA Ground,2018,Papua New Guinea,Netherlands,129,85,5,10,94.16058394160584,83.33333333333334,8,4,31,33,23,0,214,44,1,Papua New Guinea
+VRA Ground,2018,Ireland,Papua New Guinea,113,86,6,10,91.869918699187,69.35483870967742,11,2,28,14,18,11,199,27,1,Ireland
+Sportpark Maarschalkerweerd,2018,Netherlands,Uganda,118,119,3,4,95.9349593495935,100.84745762711864,10,12,28,22,15,13,237,1,0,Uganda
+VRA Ground,2018,Bangladesh,Scotland,125,76,6,7,96.15384615384616,62.8099173553719,8,6,38,17,27,9,201,49,1,Bangladesh
+Sportpark Maarschalkerweerd,2018,United Arab Emirates,Thailand,50,51,10,3,45.45454545454545,52.57731958762887,0,0,12,11,1,0,101,1,0,Thailand
+VRA Ground,2018,Netherlands,United Arab Emirates,146,146,3,9,117.74193548387098,115.87301587301589,12,11,32,45,31,22,292,0,0,United Arab Emirates
+Sportpark Maarschalkerweerd,2018,Papua New Guinea,Scotland,101,102,6,0,75.3731343283582,94.44444444444444,6,8,19,21,12,0,203,1,0,Scotland
+VRA Ground,2018,Thailand,Uganda,113,79,7,8,92.62295081967213,63.2,9,4,27,13,17,17,192,34,1,Thailand
+Sportpark Maarschalkerweerd,2018,Bangladesh,Ireland,122,97,9,10,93.12977099236642,83.62068965517241,11,11,31,23,17,8,219,25,1,Bangladesh
+Kinrara Academy Oval,2018,India,Malaysia,169,27,3,10,137.39837398373984,32.142857142857146,23,3,35,6,30,0,196,142,1,India
+Kinrara Academy Oval,2018,Thailand,Pakistan,67,70,8,2,54.47154471544715,86.41975308641975,3,7,24,30,7,0,137,3,0,Pakistan
+Kinrara Academy Oval,2018,Pakistan,Bangladesh,95,96,5,3,77.23577235772358,88.07339449541286,8,7,26,22,25,9,191,1,0,Bangladesh
+Royal Selangor Club,2018,India,Thailand,132,66,4,8,106.4516129032258,53.2258064516129,12,1,26,11,29,13,198,66,1,India
+Royal Selangor Club,2018,Sri Lanka,Malaysia,136,46,3,7,106.25,36.507936507936506,14,1,35,3,33,9,182,90,1,Sri Lanka
+Kinrara Academy Oval,2018,Pakistan,Sri Lanka,136,113,4,9,109.6774193548387,93.38842975206612,11,11,18,33,15,15,249,23,1,Pakistan
+Royal Selangor Club,2018,Malaysia,Thailand,36,37,8,1,29.75206611570248,66.07142857142857,1,1,7,21,10,0,73,1,0,Thailand
+Kinrara Academy Oval,2018,India,Bangladesh,141,142,7,3,114.6341463414634,119.32773109243698,20,21,39,45,20,19,283,1,0,Bangladesh
+Kinrara Academy Oval,2018,Thailand,Bangladesh,60,62,8,1,50.0,87.32394366197182,5,7,21,35,18,0,122,2,0,Bangladesh
+Royal Selangor Club,2018,Pakistan,Malaysia,177,30,5,10,141.6,26.785714285714285,17,1,36,9,32,2,207,147,1,Pakistan
+Royal Selangor Club,2018,Sri Lanka,India,107,110,7,3,86.29032258064517,95.65217391304348,6,8,22,24,10,18,217,3,0,India
+Kinrara Academy Oval,2018,Pakistan,India,72,75,7,3,58.06451612903226,75.0,4,7,24,20,18,0,147,3,0,India
+Royal Selangor Club,2018,Sri Lanka,Thailand,104,105,10,6,85.24590163934425,85.36585365853658,7,6,38,30,12,17,209,1,0,Thailand
+Kinrara Academy Oval,2018,Bangladesh,Malaysia,130,60,4,9,104.0,49.18032786885246,12,8,30,14,33,5,190,70,1,Bangladesh
+Kinrara Academy Oval,2018,India,Bangladesh,112,113,9,7,89.60000000000001,91.869918699187,10,12,19,31,24,23,225,1,0,Bangladesh
+Providence Stadium,2018/19,India,New Zealand,194,160,5,9,161.66666666666666,129.03225806451613,26,23,38,48,39,30,354,34,1,India
+Providence Stadium,2018/19,Australia,Pakistan,165,113,5,8,136.36363636363635,91.12903225806451,22,8,57,33,30,14,278,52,1,Australia
+Providence Stadium,2018/19,West Indies,Bangladesh,106,46,8,10,85.48387096774194,50.0,7,3,21,15,26,0,152,60,1,West Indies
+Providence Stadium,2018/19,Pakistan,India,133,127,7,3,108.130081300813,105.83333333333333,15,15,27,36,18,15,260,6,1,Pakistan
+Providence Stadium,2018/19,Ireland,Australia,93,89,6,1,74.4,145.9016393442623,8,13,26,65,23,0,182,4,1,Ireland
+"Daren Sammy National Cricket Stadium, Gros Islet",2018/19,Bangladesh,England,76,64,9,3,61.78861788617886,112.28070175438596,8,8,11,37,18,0,140,12,1,Bangladesh
+"Daren Sammy National Cricket Stadium, Gros Islet",2018/19,Sri Lanka,South Africa,99,102,8,3,76.15384615384615,85.0,9,11,9,29,19,10,201,3,0,South Africa
+Providence Stadium,2018/19,Pakistan,Ireland,139,101,6,9,111.20000000000002,81.45161290322581,16,10,19,30,22,10,240,38,1,Pakistan
+Providence Stadium,2018/19,Australia,New Zealand,153,120,7,10,119.53125,109.09090909090908,20,11,43,22,24,2,273,33,1,Australia
+"Daren Sammy National Cricket Stadium, Gros Islet",2018/19,Sri Lanka,Bangladesh,97,72,7,10,77.60000000000001,55.81395348837209,9,3,16,15,24,14,169,25,1,Sri Lanka
+"Daren Sammy National Cricket Stadium, Gros Islet",2018/19,West Indies,South Africa,107,76,7,10,85.6,67.2566371681416,12,6,23,20,19,1,183,31,1,West Indies
+Providence Stadium,2018/19,India,Ireland,145,93,6,8,115.07936507936508,73.80952380952381,16,8,39,26,20,11,238,52,1,India
+Providence Stadium,2018/19,New Zealand,Pakistan,144,90,6,10,115.19999999999999,78.26086956521739,14,10,33,46,30,3,234,54,1,New Zealand
+"Daren Sammy National Cricket Stadium, Gros Islet",2018/19,South Africa,England,85,87,10,3,70.24793388429752,101.16279069767442,8,11,22,36,5,0,172,2,0,England
+"Daren Sammy National Cricket Stadium, Gros Islet",2018/19,West Indies,Sri Lanka,187,104,5,10,152.03252032520325,94.54545454545455,27,12,67,33,34,2,291,83,1,West Indies
+Providence Stadium,2018/19,India,Australia,167,119,8,9,131.49606299212599,99.16666666666667,19,12,43,37,27,16,286,48,1,India
+Providence Stadium,2018/19,Ireland,New Zealand,79,81,9,2,64.22764227642277,162.0,7,12,24,66,3,0,160,2,0,New Zealand
+"Daren Sammy National Cricket Stadium, Gros Islet",2018/19,England,West Indies,115,117,8,6,93.4959349593496,98.31932773109243,10,13,30,24,20,24,232,2,0,West Indies
+"Daren Sammy National Cricket Stadium, Gros Islet",2018/19,South Africa,Bangladesh,109,79,9,5,89.34426229508196,65.28925619834712,9,5,47,11,6,17,188,30,1,South Africa
+"Sir Vivian Richards Stadium, North Sound",2018/19,Australia,West Indies,142,71,5,10,112.6984126984127,64.54545454545455,15,5,35,22,27,0,213,71,1,Australia
+"Sir Vivian Richards Stadium, North Sound",2018/19,India,England,112,116,10,2,93.33333333333333,110.47619047619048,11,9,41,29,13,4,228,4,0,England
+"Sir Vivian Richards Stadium, North Sound",2018/19,England,Australia,105,106,10,2,86.77685950413223,112.7659574468085,9,12,34,31,16,0,211,1,0,Australia
+Sophia Gardens,2019,Pakistan,England,173,175,6,3,140.65040650406505,145.83333333333331,20,21,36,46,32,30,348,2,0,England
+Sylhet International Cricket Stadium,2018/19,Bangladesh,West Indies,129,130,10,2,111.20689655172413,196.96969696969697,17,18,48,86,14,0,259,1,0,West Indies
+"Shere Bangla National Stadium, Mirpur",2018/19,Bangladesh,West Indies,211,175,4,10,159.84848484848484,145.83333333333331,28,21,58,60,30,10,386,36,1,Bangladesh
+"Shere Bangla National Stadium, Mirpur",2018/19,West Indies,Bangladesh,190,140,10,10,154.47154471544715,123.8938053097345,26,18,85,59,10,0,330,50,1,West Indies
+Westpac Stadium,2018/19,New Zealand,India,219,139,6,10,175.2,115.83333333333334,28,18,65,50,37,9,358,80,1,New Zealand
+Eden Park,2018/19,New Zealand,India,158,162,8,3,123.4375,137.28813559322032,14,17,41,49,20,14,320,4,0,India
+Seddon Park,2018/19,New Zealand,India,212,208,4,6,172.3577235772358,163.7795275590551,28,26,65,51,30,41,420,4,1,New Zealand
+Eden Park,2018/19,New Zealand,Sri Lanka,179,144,7,10,137.69230769230768,134.57943925233644,19,16,30,55,39,0,323,35,1,New Zealand
+Westpac Stadium,2018/19,New Zealand,India,159,136,4,10,128.2258064516129,115.2542372881356,20,18,39,57,29,14,295,23,1,New Zealand
+Eden Park,2018/19,India,New Zealand,135,136,7,6,112.5,111.47540983606557,12,13,52,33,24,17,271,1,0,New Zealand
+Seddon Park,2018/19,New Zealand,India,161,159,7,4,134.16666666666666,128.2258064516129,21,21,50,55,21,24,320,2,1,New Zealand
+"Brian Lara Stadium, Tarouba",2018,South Africa,West Indies,101,102,8,1,82.11382113821138,102.0,11,9,14,23,20,0,203,1,0,West Indies
+"Brian Lara Stadium, Tarouba",2018,West Indies,South Africa,135,136,3,2,110.65573770491804,116.23931623931625,15,16,26,45,27,15,271,1,0,South Africa
+"Brian Lara Stadium, Tarouba",2018,West Indies,South Africa,155,156,5,7,124.0,130.0,20,23,24,54,39,15,311,1,0,South Africa
+Sheikh Zayed Stadium,2018/19,Pakistan,Australia,155,89,8,10,128.099173553719,88.11881188118812,16,12,42,25,24,0,244,66,1,Pakistan
+Dubai International Cricket Stadium,2018/19,Pakistan,Australia,147,136,6,8,118.5483870967742,108.80000000000001,13,11,40,16,27,29,283,11,1,Pakistan
+Dubai International Cricket Stadium,2018/19,Pakistan,Australia,150,117,5,10,120.96774193548387,100.0,18,12,52,49,24,11,267,33,1,Pakistan
+Sheikh Zayed Stadium,2018/19,Pakistan,New Zealand,148,146,6,6,120.32520325203254,120.66115702479338,18,15,30,50,33,32,294,2,1,Pakistan
+Dubai International Cricket Stadium,2018/19,New Zealand,Pakistan,153,154,7,4,124.39024390243902,125.20325203252031,16,15,48,48,28,21,307,1,0,Pakistan
+Dubai International Cricket Stadium,2018/19,Pakistan,New Zealand,166,119,3,10,137.19008264462812,116.66666666666667,19,14,33,27,29,0,285,47,1,Pakistan
+"Rajiv Gandhi International Stadium, Uppal",2017,Sunrisers Hyderabad,Royal Challengers Bangalore,207,172,4,10,165.6,139.83739837398375,26,23,55,52,43,17,379,35,1,Sunrisers Hyderabad
+Maharashtra Cricket Association Stadium,2017,Mumbai Indians,Rising Pune Supergiant,184,187,8,3,147.2,153.27868852459017,24,24,60,57,44,29,371,3,0,Rising Pune Supergiant
+Saurashtra Cricket Association Stadium,2017,Gujarat Lions,Kolkata Knight Riders,183,184,4,0,150.0,191.66666666666669,26,26,51,67,40,0,367,1,0,Kolkata Knight Riders
+Holkar Cricket Stadium,2017,Rising Pune Supergiant,Kings XI Punjab,163,164,6,4,130.4,134.4262295081967,18,20,35,54,32,18,327,1,0,Kings XI Punjab
+M.Chinnaswamy Stadium,2017,Royal Challengers Bangalore,Delhi Daredevils,157,142,8,9,126.61290322580645,114.51612903225808,21,15,38,42,15,16,299,15,1,Royal Challengers Bangalore
+"Rajiv Gandhi International Stadium, Uppal",2017,Gujarat Lions,Sunrisers Hyderabad,135,140,7,1,112.5,145.83333333333331,13,17,38,59,21,0,275,5,0,Sunrisers Hyderabad
+Wankhede Stadium,2017,Kolkata Knight Riders,Mumbai Indians,178,180,7,6,139.0625,142.85714285714286,20,24,52,41,40,46,358,2,0,Mumbai Indians
+Holkar Cricket Stadium,2017,Royal Challengers Bangalore,Kings XI Punjab,148,150,4,2,120.32520325203254,168.53932584269663,17,20,23,60,51,0,298,2,0,Kings XI Punjab
+Maharashtra Cricket Association Stadium,2017,Delhi Daredevils,Rising Pune Supergiant,205,108,4,10,164.0,106.93069306930694,27,11,56,47,64,0,313,97,1,Delhi Daredevils
+Wankhede Stadium,2017,Sunrisers Hyderabad,Mumbai Indians,158,159,8,6,125.39682539682539,140.7079646017699,21,22,33,60,17,10,317,1,0,Mumbai Indians
+Eden Gardens,2017,Kings XI Punjab,Kolkata Knight Riders,170,171,9,2,130.76923076923077,164.4230769230769,24,25,47,68,24,0,341,1,0,Kolkata Knight Riders
+M Chinnaswamy Stadium,2017,Royal Challengers Bangalore,Mumbai Indians,142,145,5,6,114.51612903225808,121.84873949579831,11,14,39,18,21,21,287,3,0,Mumbai Indians
+Saurashtra Cricket Association Stadium,2017,Rising Pune Supergiant,Gujarat Lions,171,172,8,3,137.90322580645162,153.57142857142858,21,27,62,60,20,20,343,1,0,Gujarat Lions
+Eden Gardens,2017,Kolkata Knight Riders,Sunrisers Hyderabad,172,155,6,6,136.5079365079365,125.0,20,21,37,43,20,25,327,17,1,Kolkata Knight Riders
+Feroz Shah Kotla,2017,Delhi Daredevils,Kings XI Punjab,188,137,6,9,148.03149606299212,113.22314049586777,28,14,48,40,44,13,325,51,1,Delhi Daredevils
+Wankhede Stadium,2017,Gujarat Lions,Mumbai Indians,176,177,4,4,139.68253968253967,141.6,19,19,44,48,30,22,353,1,0,Mumbai Indians
+M Chinnaswamy Stadium,2017,Rising Pune Supergiant,Royal Challengers Bangalore,161,134,8,9,127.77777777777777,108.06451612903226,21,12,50,42,29,18,295,27,1,Rising Pune Supergiant
+Feroz Shah Kotla,2017,Delhi Daredevils,Kolkata Knight Riders,168,169,7,6,137.70491803278688,137.39837398373984,23,18,53,48,20,21,337,1,0,Kolkata Knight Riders
+"Rajiv Gandhi International Stadium, Uppal",2017,Sunrisers Hyderabad,Kings XI Punjab,159,154,6,10,127.2,124.19354838709677,15,18,23,45,34,19,313,5,1,Sunrisers Hyderabad
+Saurashtra Cricket Association Stadium,2017,Royal Challengers Bangalore,Gujarat Lions,213,192,2,7,173.17073170731706,152.38095238095238,30,24,45,56,47,35,405,21,1,Royal Challengers Bangalore
+"Rajiv Gandhi International Stadium, Uppal",2017,Sunrisers Hyderabad,Delhi Daredevils,191,176,4,5,155.28455284552845,144.2622950819672,22,24,38,54,33,30,367,15,1,Sunrisers Hyderabad
+Holkar Cricket Stadium,2017,Kings XI Punjab,Mumbai Indians,198,199,4,2,155.90551181102362,203.06122448979593,26,28,45,78,29,0,397,1,0,Mumbai Indians
+Eden Gardens,2017,Kolkata Knight Riders,Gujarat Lions,187,188,5,6,154.54545454545453,169.36936936936937,27,28,65,68,33,17,375,1,0,Gujarat Lions
+Wankhede Stadium,2017,Mumbai Indians,Delhi Daredevils,142,128,8,7,111.81102362204724,102.4,15,14,38,21,21,25,270,14,1,Mumbai Indians
+Maharashtra Cricket Association Stadium,2017,Sunrisers Hyderabad,Rising Pune Supergiant,176,179,3,4,141.93548387096774,147.93388429752065,22,24,41,54,41,48,355,3,0,Rising Pune Supergiant
+Saurashtra Cricket Association Stadium,2017,Kings XI Punjab,Gujarat Lions,188,162,7,7,155.37190082644628,130.64516129032256,26,18,48,50,36,16,350,26,1,Kings XI Punjab
+Eden Gardens,2017,Kolkata Knight Riders,Royal Challengers Bangalore,131,49,10,10,108.26446280991735,79.03225806451613,16,8,59,33,8,0,180,82,1,Kolkata Knight Riders
+Wankhede Stadium,2017,Rising Pune Supergiant,Mumbai Indians,160,157,6,8,131.14754098360655,127.64227642276423,20,21,46,43,21,27,317,3,1,Rising Pune Supergiant
+Maharashtra Cricket Association Stadium,2017,Rising Pune Supergiant,Kolkata Knight Riders,182,184,5,3,145.6,161.4035087719298,22,24,54,41,31,6,366,2,0,Kolkata Knight Riders
+M Chinnaswamy Stadium,2017,Royal Challengers Bangalore,Gujarat Lions,134,135,10,3,108.9430894308943,151.68539325842696,13,20,31,46,17,0,269,1,0,Gujarat Lions
+Eden Gardens,2017,Delhi Daredevils,Kolkata Knight Riders,160,161,6,3,131.14754098360655,162.62626262626264,18,24,47,38,14,0,321,1,0,Kolkata Knight Riders
+"Punjab Cricket Association IS Bindra Stadium, Mohali",2017,Sunrisers Hyderabad,Kings XI Punjab,207,181,3,9,169.672131147541,149.5867768595041,26,29,59,58,36,23,388,26,1,Sunrisers Hyderabad
+Maharashtra Cricket Association Stadium,2017,Rising Pune Supergiant,Royal Challengers Bangalore,157,96,3,9,127.64227642276423,78.68852459016394,18,7,42,37,27,14,253,61,1,Rising Pune Supergiant
+Saurashtra Cricket Association Stadium,2017,Gujarat Lions,Mumbai Indians,153,153,9,10,118.6046511627907,126.44628099173553,19,19,45,61,40,23,306,0,0,Mumbai Indians
+"Punjab Cricket Association IS Bindra Stadium, Mohali",2017,Delhi Daredevils,Kings XI Punjab,67,68,10,0,62.03703703703704,138.77551020408163,5,10,24,48,0,0,135,1,0,Kings XI Punjab
+"Rajiv Gandhi International Stadium, Uppal",2017,Sunrisers Hyderabad,Kolkata Knight Riders,209,161,3,7,167.2,131.9672131147541,26,17,75,44,33,22,370,48,1,Sunrisers Hyderabad
+Wankhede Stadium,2017,Royal Challengers Bangalore,Mumbai Indians,162,165,8,6,132.78688524590163,134.14634146341464,18,20,51,53,30,30,327,3,0,Mumbai Indians
+Maharashtra Cricket Association Stadium,2017,Gujarat Lions,Rising Pune Supergiant,161,167,10,5,133.05785123966942,135.77235772357724,20,20,54,41,14,40,328,6,0,Rising Pune Supergiant
+Feroz Shah Kotla,2017,Sunrisers Hyderabad,Delhi Daredevils,185,189,3,4,150.40650406504065,161.53846153846155,27,25,62,62,51,27,374,4,0,Delhi Daredevils
+Eden Gardens,2017,Kolkata Knight Riders,Rising Pune Supergiant,155,158,8,6,129.16666666666669,133.89830508474577,21,22,36,67,35,11,313,3,0,Rising Pune Supergiant
+Feroz Shah Kotla,2017,Gujarat Lions,Delhi Daredevils,208,214,7,3,167.74193548387098,194.54545454545456,27,28,58,58,29,6,422,6,0,Delhi Daredevils
+M Chinnaswamy Stadium,2017,Kings XI Punjab,Royal Challengers Bangalore,138,119,7,10,112.19512195121952,101.7094017094017,14,13,35,46,27,8,257,19,1,Kings XI Punjab
+"Rajiv Gandhi International Stadium, Uppal",2017,Rising Pune Supergiant,Sunrisers Hyderabad,148,136,8,9,119.35483870967742,111.47540983606557,11,16,34,47,29,18,284,12,1,Rising Pune Supergiant
+Feroz Shah Kotla,2017,Mumbai Indians,Delhi Daredevils,212,66,3,10,165.625,79.51807228915662,26,8,51,34,40,0,278,146,1,Mumbai Indians
+M Chinnaswamy Stadium,2017,Royal Challengers Bangalore,Kolkata Knight Riders,158,159,6,4,129.5081967213115,169.14893617021275,17,22,39,103,42,0,317,1,0,Kolkata Knight Riders
+"Punjab Cricket Association IS Bindra Stadium, Mohali",2017,Kings XI Punjab,Gujarat Lions,189,192,3,4,153.65853658536585,158.67768595041323,21,23,42,56,39,28,381,3,0,Gujarat Lions
+"Rajiv Gandhi International Stadium, Uppal",2017,Mumbai Indians,Sunrisers Hyderabad,138,140,7,3,109.52380952380953,125.0,13,15,34,43,21,11,278,2,0,Sunrisers Hyderabad
+"Punjab Cricket Association IS Bindra Stadium, Mohali",2017,Kings XI Punjab,Kolkata Knight Riders,167,153,6,6,132.53968253968253,125.40983606557377,18,18,38,61,30,22,320,14,1,Kings XI Punjab
+Green Park,2017,Gujarat Lions,Delhi Daredevils,195,197,5,8,157.25806451612902,165.54621848739495,26,35,46,64,31,22,392,2,0,Delhi Daredevils
+Wankhede Stadium,2017,Kings XI Punjab,Mumbai Indians,230,223,3,6,178.29457364341087,176.984126984127,30,32,68,65,30,30,453,7,1,Kings XI Punjab
+Feroz Shah Kotla,2017,Delhi Daredevils,Rising Pune Supergiant,168,161,8,7,135.48387096774192,128.8,20,19,52,51,25,25,329,7,1,Delhi Daredevils
+Green Park,2017,Gujarat Lions,Sunrisers Hyderabad,154,158,10,2,130.5084745762712,143.63636363636363,21,23,60,45,9,16,312,4,0,Sunrisers Hyderabad
+Eden Gardens,2017,Mumbai Indians,Kolkata Knight Riders,173,164,5,8,138.39999999999998,131.20000000000002,24,21,42,49,32,15,337,9,1,Mumbai Indians
+Maharashtra Cricket Association Stadium,2017,Kings XI Punjab,Rising Pune Supergiant,73,78,10,1,74.48979591836735,106.84931506849315,7,7,30,42,0,0,151,5,0,Rising Pune Supergiant
+Feroz Shah Kotla,2017,Royal Challengers Bangalore,Delhi Daredevils,161,151,6,10,126.77165354330708,123.77049180327869,18,19,36,37,29,23,312,10,1,Royal Challengers Bangalore
+Wankhede Stadium,2017,Rising Pune Supergiant,Mumbai Indians,162,142,4,9,129.6,111.81102362204724,17,14,31,40,44,31,304,20,1,Rising Pune Supergiant
+M Chinnaswamy Stadium,2017,Sunrisers Hyderabad,Kolkata Knight Riders,128,48,7,3,104.91803278688525,137.14285714285714,14,5,29,44,22,0,176,80,1,Sunrisers Hyderabad
+M Chinnaswamy Stadium,2017,Kolkata Knight Riders,Mumbai Indians,107,111,10,4,92.24137931034483,121.97802197802199,11,14,22,31,6,0,218,4,0,Mumbai Indians
+"Rajiv Gandhi International Stadium, Uppal",2017,Mumbai Indians,Rising Pune Supergiant,129,128,8,6,103.2,104.06504065040652,13,11,31,33,34,26,257,1,1,Mumbai Indians
+Wankhede Stadium,2018,Mumbai Indians,Chennai Super Kings,165,169,4,9,135.24590163934425,136.29032258064515,23,21,38,42,24,50,334,4,0,Chennai Super Kings
+Punjab Cricket Association IS Bindra Stadium,2018,Delhi Daredevils,Kings XI Punjab,166,167,7,4,133.8709677419355,146.49122807017542,16,23,42,73,26,14,333,1,0,Kings XI Punjab
+Eden Gardens,2018,Royal Challengers Bangalore,Kolkata Knight Riders,176,177,7,6,145.45454545454547,143.90243902439025,24,24,47,65,33,13,353,1,0,Kolkata Knight Riders
+Rajiv Gandhi International Stadium,2018,Rajasthan Royals,Sunrisers Hyderabad,125,127,9,1,100.0,127.0,12,19,45,54,8,0,252,2,0,Sunrisers Hyderabad
+MA Chidambaram Stadium,2018,Kolkata Knight Riders,Chennai Super Kings,202,205,6,5,164.22764227642276,166.66666666666669,28,24,63,75,43,42,407,3,0,Chennai Super Kings
+Sawai Mansingh Stadium,2018,Rajasthan Royals,Delhi Daredevils,153,60,5,4,140.36697247706422,162.16216216216216,17,9,51,57,8,0,213,93,1,Rajasthan Royals
+Rajiv Gandhi International Stadium,2018,Mumbai Indians,Sunrisers Hyderabad,147,151,8,9,118.5483870967742,124.79338842975207,21,19,49,55,16,17,298,4,0,Sunrisers Hyderabad
+M.Chinnaswamy Stadium,2018,Kings XI Punjab,Royal Challengers Bangalore,155,159,10,6,130.25210084033614,134.74576271186442,18,21,49,40,17,25,314,4,0,Royal Challengers Bangalore
+Wankhede Stadium,2018,Mumbai Indians,Delhi Daredevils,194,195,7,3,155.20000000000002,161.15702479338842,26,28,78,53,16,23,389,1,0,Delhi Daredevils
+Eden Gardens,2018,Kolkata Knight Riders,Sunrisers Hyderabad,138,139,8,5,112.19512195121952,116.80672268907564,16,17,49,42,23,20,277,1,0,Sunrisers Hyderabad
+M.Chinnaswamy Stadium,2018,Rajasthan Royals,Royal Challengers Bangalore,217,198,4,6,169.53125,160.97560975609758,28,27,48,63,59,41,415,19,1,Rajasthan Royals
+Punjab Cricket Association IS Bindra Stadium,2018,Kings XI Punjab,Chennai Super Kings,197,193,7,5,162.80991735537188,149.6124031007752,28,23,74,48,32,49,390,4,1,Kings XI Punjab
+Eden Gardens,2018,Kolkata Knight Riders,Delhi Daredevils,200,129,9,10,163.9344262295082,141.75824175824175,29,18,50,49,18,0,329,71,1,Kolkata Knight Riders
+Wankhede Stadium,2018,Mumbai Indians,Royal Challengers Bangalore,213,167,6,8,167.71653543307085,134.6774193548387,31,19,49,53,43,32,380,46,1,Mumbai Indians
+Sawai Mansingh Stadium,2018,Rajasthan Royals,Kolkata Knight Riders,160,163,8,3,129.03225806451613,141.73913043478262,19,21,47,53,29,20,323,3,0,Kolkata Knight Riders
+Punjab Cricket Association IS Bindra Stadium,2018,Kings XI Punjab,Sunrisers Hyderabad,193,178,3,5,156.91056910569105,136.92307692307693,24,16,45,38,28,39,371,15,1,Kings XI Punjab
+Maharashtra Cricket Association Stadium,2018,Chennai Super Kings,Rajasthan Royals,204,140,5,10,161.9047619047619,117.64705882352942,31,13,68,33,27,10,344,64,1,Chennai Super Kings
+Eden Gardens,2018,Kolkata Knight Riders,Kings XI Punjab,191,126,7,1,149.21875,182.6086956521739,26,22,47,72,24,0,317,65,1,Kolkata Knight Riders
+M.Chinnaswamy Stadium,2018,Delhi Daredevils,Royal Challengers Bangalore,174,176,5,4,141.46341463414635,158.55855855855856,23,23,25,42,37,13,350,2,0,Royal Challengers Bangalore
+Rajiv Gandhi International Stadium,2018,Chennai Super Kings,Sunrisers Hyderabad,182,178,3,6,146.7741935483871,145.9016393442623,26,22,26,39,36,37,360,4,1,Chennai Super Kings
+Sawai Mansingh Stadium,2018,Mumbai Indians,Rajasthan Royals,167,168,7,7,134.6774193548387,135.48387096774192,20,17,42,42,26,41,335,1,0,Rajasthan Royals
+Arun Jaitley Stadium,2018,Kings XI Punjab,Delhi Daredevils,143,139,8,8,115.3225806451613,109.4488188976378,14,15,50,44,13,22,282,4,1,Kings XI Punjab
+Wankhede Stadium,2018,Sunrisers Hyderabad,Mumbai Indians,118,87,10,10,101.72413793103448,76.31578947368422,14,11,41,21,9,7,205,31,1,Sunrisers Hyderabad
+M.Chinnaswamy Stadium,2018,Royal Challengers Bangalore,Chennai Super Kings,205,207,8,5,165.3225806451613,162.99212598425197,25,26,52,54,38,42,412,2,0,Chennai Super Kings
+Rajiv Gandhi International Stadium,2018,Sunrisers Hyderabad,Kings XI Punjab,132,119,6,10,107.31707317073172,102.58620689655173,13,13,35,44,27,17,251,13,1,Sunrisers Hyderabad
+Arun Jaitley Stadium,2018,Delhi Daredevils,Kolkata Knight Riders,219,164,4,9,178.0487804878049,133.33333333333331,31,21,57,51,56,20,383,55,1,Delhi Daredevils
+Maharashtra Cricket Association Stadium,2018,Chennai Super Kings,Mumbai Indians,169,170,5,2,136.29032258064515,138.21138211382114,21,20,50,48,26,36,339,1,0,Mumbai Indians
+Sawai Mansingh Stadium,2018,Sunrisers Hyderabad,Rajasthan Royals,151,140,7,6,125.83333333333333,116.66666666666667,17,11,39,43,17,24,291,11,1,Sunrisers Hyderabad
+M.Chinnaswamy Stadium,2018,Royal Challengers Bangalore,Kolkata Knight Riders,175,176,4,5,141.1290322580645,144.2622950819672,21,24,37,49,39,29,351,1,0,Kolkata Knight Riders
+Maharashtra Cricket Association Stadium,2018,Chennai Super Kings,Delhi Daredevils,211,198,4,5,170.16129032258064,157.14285714285714,28,26,55,58,40,37,409,13,1,Chennai Super Kings
+M.Chinnaswamy Stadium,2018,Royal Challengers Bangalore,Mumbai Indians,167,153,7,7,135.77235772357724,117.6923076923077,21,17,42,34,26,20,320,14,1,Royal Challengers Bangalore
+Arun Jaitley Stadium,2018,Delhi Daredevils,Rajasthan Royals,196,146,6,5,179.8165137614679,194.66666666666669,30,21,62,77,0,0,342,50,1,Delhi Daredevils
+Eden Gardens,2018,Chennai Super Kings,Kolkata Knight Riders,177,180,5,4,143.90243902439025,159.2920353982301,24,27,57,54,26,14,357,3,0,Kolkata Knight Riders
+Holkar Cricket Stadium,2018,Kings XI Punjab,Mumbai Indians,174,176,6,4,139.2,151.72413793103448,21,24,47,38,38,33,350,2,0,Mumbai Indians
+Maharashtra Cricket Association Stadium,2018,Royal Challengers Bangalore,Chennai Super Kings,127,128,9,4,104.95867768595042,114.28571428571428,15,16,44,41,28,20,255,1,0,Chennai Super Kings
+Rajiv Gandhi International Stadium,2018,Delhi Daredevils,Sunrisers Hyderabad,163,164,5,3,133.60655737704917,132.25806451612902,17,16,59,58,28,31,327,1,0,Sunrisers Hyderabad
+Wankhede Stadium,2018,Mumbai Indians,Kolkata Knight Riders,181,168,4,6,144.79999999999998,138.84297520661158,25,26,56,42,26,29,349,13,1,Mumbai Indians
+Holkar Cricket Stadium,2018,Rajasthan Royals,Kings XI Punjab,152,155,9,4,125.6198347107438,134.7826086956522,17,19,39,32,23,29,307,3,0,Kings XI Punjab
+Rajiv Gandhi International Stadium,2018,Sunrisers Hyderabad,Royal Challengers Bangalore,146,141,10,6,115.87301587301589,114.6341463414634,17,16,35,54,21,18,287,5,1,Sunrisers Hyderabad
+Sawai Mansingh Stadium,2018,Rajasthan Royals,Kings XI Punjab,158,143,8,7,129.5081967213115,117.21311475409837,17,15,62,32,24,40,301,15,1,Rajasthan Royals
+Eden Gardens,2018,Mumbai Indians,Kolkata Knight Riders,210,108,6,10,168.0,99.08256880733946,30,16,47,47,46,2,318,102,1,Mumbai Indians
+Arun Jaitley Stadium,2018,Delhi Daredevils,Sunrisers Hyderabad,187,191,5,1,154.54545454545453,167.54385964912282,28,26,37,50,53,21,378,4,0,Sunrisers Hyderabad
+Sawai Mansingh Stadium,2018,Chennai Super Kings,Rajasthan Royals,176,177,4,6,134.35114503816794,146.28099173553719,18,24,51,56,33,37,353,1,0,Rajasthan Royals
+Holkar Cricket Stadium,2018,Kolkata Knight Riders,Kings XI Punjab,245,214,6,8,196.0,169.84126984126985,39,28,59,57,39,30,459,31,1,Kolkata Knight Riders
+Arun Jaitley Stadium,2018,Delhi Daredevils,Royal Challengers Bangalore,181,187,4,5,143.65079365079364,157.14285714285714,23,24,41,53,33,24,368,6,0,Royal Challengers Bangalore
+Maharashtra Cricket Association Stadium,2018,Sunrisers Hyderabad,Chennai Super Kings,179,180,4,2,137.69230769230768,156.52173913043478,23,24,26,53,26,19,359,1,0,Chennai Super Kings
+Wankhede Stadium,2018,Mumbai Indians,Rajasthan Royals,168,171,6,3,132.28346456692915,152.67857142857142,22,23,48,43,33,18,339,3,0,Rajasthan Royals
+Holkar Cricket Stadium,2018,Kings XI Punjab,Royal Challengers Bangalore,88,92,10,0,93.61702127659575,180.3921568627451,10,15,46,64,0,0,180,4,0,Royal Challengers Bangalore
+Eden Gardens,2018,Rajasthan Royals,Kolkata Knight Riders,142,145,10,4,123.47826086956522,133.0275229357798,20,21,67,50,7,16,287,3,0,Kolkata Knight Riders
+Wankhede Stadium,2018,Mumbai Indians,Kings XI Punjab,186,183,8,5,147.61904761904762,146.4,23,22,57,56,24,30,369,3,1,Mumbai Indians
+M.Chinnaswamy Stadium,2018,Royal Challengers Bangalore,Sunrisers Hyderabad,218,204,6,3,178.68852459016392,165.85365853658536,32,28,44,56,40,30,422,14,1,Royal Challengers Bangalore
+Arun Jaitley Stadium,2018,Delhi Daredevils,Chennai Super Kings,162,128,5,6,128.57142857142858,106.66666666666667,19,13,35,43,44,19,290,34,1,Delhi Daredevils
+Sawai Mansingh Stadium,2018,Rajasthan Royals,Royal Challengers Bangalore,164,134,5,10,132.25806451612902,114.52991452991452,17,17,45,54,34,12,298,30,1,Rajasthan Royals
+Rajiv Gandhi International Stadium,2018,Sunrisers Hyderabad,Kolkata Knight Riders,172,173,9,5,136.5079365079365,140.65040650406505,20,22,52,62,21,17,345,1,0,Kolkata Knight Riders
+Arun Jaitley Stadium,2018,Delhi Daredevils,Mumbai Indians,174,163,4,10,139.2,133.60655737704917,20,20,43,55,30,26,337,11,1,Delhi Daredevils
+Maharashtra Cricket Association Stadium,2018,Kings XI Punjab,Chennai Super Kings,153,159,10,5,123.38709677419355,129.26829268292684,17,18,26,31,21,38,312,6,0,Chennai Super Kings
+Wankhede Stadium,2018,Sunrisers Hyderabad,Chennai Super Kings,139,140,7,8,107.75193798449611,118.64406779661016,16,18,47,32,38,42,279,1,0,Chennai Super Kings
+Eden Gardens,2018,Kolkata Knight Riders,Rajasthan Royals,169,144,7,4,134.12698412698413,119.00826446280992,21,16,39,50,32,17,313,25,1,Kolkata Knight Riders
+Eden Gardens,2018,Sunrisers Hyderabad,Kolkata Knight Riders,174,160,7,9,140.3225806451613,132.2314049586777,23,22,43,65,48,24,334,14,1,Sunrisers Hyderabad
+Wankhede Stadium,2018,Sunrisers Hyderabad,Chennai Super Kings,178,181,6,2,140.15748031496062,158.7719298245614,22,27,39,33,31,15,359,3,0,Chennai Super Kings
+MA Chidambaram Stadium,2019,Royal Challengers Bangalore,Chennai Super Kings,70,71,10,3,67.3076923076923,64.54545454545455,4,7,31,15,0,2,141,1,0,Chennai Super Kings
+Eden Gardens,2019,Sunrisers Hyderabad,Kolkata Knight Riders,181,183,3,4,147.15447154471545,151.2396694214876,21,26,50,47,31,53,364,2,0,Kolkata Knight Riders
+Wankhede Stadium,2019,Delhi Capitals,Mumbai Indians,213,176,6,9,171.7741935483871,144.2622950819672,33,26,43,44,50,15,389,37,1,Delhi Capitals
+Sawai Mansingh Stadium,2019,Kings XI Punjab,Rajasthan Royals,184,170,4,9,143.75,137.09677419354838,24,21,29,64,32,19,354,14,1,Kings XI Punjab
+Arun Jaitley Stadium,2019,Delhi Capitals,Chennai Super Kings,147,150,6,4,117.6,123.96694214876034,18,19,41,54,19,23,297,3,0,Chennai Super Kings
+Eden Gardens,2019,Kolkata Knight Riders,Kings XI Punjab,218,190,4,4,175.80645161290323,152.0,31,27,52,49,55,37,408,28,1,Kolkata Knight Riders
+M.Chinnaswamy Stadium,2019,Mumbai Indians,Royal Challengers Bangalore,187,181,8,5,149.6,147.15447154471545,26,24,52,60,37,31,368,6,1,Mumbai Indians
+Rajiv Gandhi International Stadium,2019,Rajasthan Royals,Sunrisers Hyderabad,198,201,2,5,159.6774193548387,168.9075630252101,25,27,34,68,56,20,399,3,0,Sunrisers Hyderabad
+Punjab Cricket Association IS Bindra Stadium,2019,Mumbai Indians,Kings XI Punjab,176,177,7,2,141.93548387096774,148.73949579831933,23,22,62,38,26,13,353,1,0,Kings XI Punjab
+Arun Jaitley Stadium,2019,Kolkata Knight Riders,Delhi Capitals,185,185,8,6,149.19354838709677,150.40650406504065,26,26,35,44,39,16,370,0,0,Delhi Capitals
+Rajiv Gandhi International Stadium,2019,Sunrisers Hyderabad,Royal Challengers Bangalore,231,113,2,10,190.9090909090909,91.869918699187,30,13,59,26,35,9,344,118,1,Sunrisers Hyderabad
+MA Chidambaram Stadium,2019,Chennai Super Kings,Rajasthan Royals,175,167,5,8,138.88888888888889,133.6,22,18,29,42,56,33,342,8,1,Chennai Super Kings
+Punjab Cricket Association IS Bindra Stadium,2019,Kings XI Punjab,Delhi Capitals,166,152,9,10,133.8709677419355,125.6198347107438,22,20,54,44,25,7,318,14,1,Kings XI Punjab
+Sawai Mansingh Stadium,2019,Royal Challengers Bangalore,Rajasthan Royals,158,164,4,3,129.5081967213115,132.25806451612902,21,20,45,49,32,22,322,6,0,Rajasthan Royals
+Wankhede Stadium,2019,Mumbai Indians,Chennai Super Kings,170,133,5,8,136.0,104.72440944881889,23,17,38,32,47,25,303,37,1,Mumbai Indians
+Arun Jaitley Stadium,2019,Delhi Capitals,Sunrisers Hyderabad,129,131,8,5,105.73770491803278,114.91228070175438,13,16,35,53,31,17,260,2,0,Sunrisers Hyderabad
+M.Chinnaswamy Stadium,2019,Royal Challengers Bangalore,Kolkata Knight Riders,205,206,3,5,165.3225806451613,168.85245901639345,27,28,53,52,30,50,411,1,0,Kolkata Knight Riders
+MA Chidambaram Stadium,2019,Chennai Super Kings,Kings XI Punjab,160,138,3,5,128.0,111.29032258064515,18,12,53,45,42,21,298,22,1,Chennai Super Kings
+Rajiv Gandhi International Stadium,2019,Mumbai Indians,Sunrisers Hyderabad,136,96,7,10,109.6774193548387,88.07339449541286,15,9,30,37,42,5,232,40,1,Mumbai Indians
+M.Chinnaswamy Stadium,2019,Royal Challengers Bangalore,Delhi Capitals,149,152,8,6,120.16129032258065,126.66666666666666,15,21,37,46,15,8,301,3,0,Delhi Capitals
+Sawai Mansingh Stadium,2019,Rajasthan Royals,Kolkata Knight Riders,139,140,3,2,111.20000000000002,162.7906976744186,15,21,28,63,23,0,279,1,0,Kolkata Knight Riders
+Punjab Cricket Association IS Bindra Stadium,2019,Sunrisers Hyderabad,Kings XI Punjab,150,151,4,4,121.95121951219512,126.890756302521,14,16,19,38,34,19,301,1,0,Kings XI Punjab
+MA Chidambaram Stadium,2019,Kolkata Knight Riders,Chennai Super Kings,108,111,9,3,87.8048780487805,102.77777777777777,15,11,27,38,28,1,219,3,0,Chennai Super Kings
+Wankhede Stadium,2019,Kings XI Punjab,Mumbai Indians,197,198,4,7,157.6,155.90551181102362,26,26,50,50,51,39,395,1,0,Mumbai Indians
+Sawai Mansingh Stadium,2019,Rajasthan Royals,Chennai Super Kings,151,155,7,6,123.77049180327869,125.0,18,13,48,24,34,38,306,4,0,Chennai Super Kings
+Eden Gardens,2019,Kolkata Knight Riders,Delhi Capitals,178,180,7,3,143.5483870967742,156.52173913043478,24,24,40,57,34,18,358,2,0,Delhi Capitals
+Wankhede Stadium,2019,Mumbai Indians,Rajasthan Royals,187,188,5,6,152.03252032520325,157.98319327731093,23,28,57,58,40,16,375,1,0,Rajasthan Royals
+Punjab Cricket Association IS Bindra Stadium,2019,Kings XI Punjab,Royal Challengers Bangalore,173,174,4,2,138.39999999999998,148.71794871794873,23,23,60,63,32,38,347,1,0,Royal Challengers Bangalore
+Eden Gardens,2019,Kolkata Knight Riders,Chennai Super Kings,161,162,8,5,128.8,135.0,20,24,45,44,11,32,323,1,0,Chennai Super Kings
+Rajiv Gandhi International Stadium,2019,Delhi Capitals,Sunrisers Hyderabad,155,116,7,10,125.0,99.14529914529915,18,10,49,39,23,6,271,39,1,Delhi Capitals
+Wankhede Stadium,2019,Royal Challengers Bangalore,Mumbai Indians,171,172,7,5,141.32231404958677,143.33333333333334,22,25,40,65,25,28,343,1,0,Mumbai Indians

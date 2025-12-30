@@ -1,0 +1,85 @@
+[
+  {
+  "player_name": "Rohit Sharma",
+  "country": "India",
+  "age": 38,
+  "role": "Opening Batsman / Captain",
+  "batting_position": "1-2",
+  "special_shot": "Pull Shot - Six Hitting Machine",
+  "batting_style": "Right-hand Top-order",
+  "bowling_style": "Right-arm Off-break",
+  "teams": "Mumbai Indians, India",
+  "is_young_star": "No",
+  "career_status": {
+    "t20i": "Retired (June 2024 - Post T20WC Win)",
+    "test": "Retired (May 2025 - Finished with 61 Tests)",
+    "odi": "Active (Led India to 2025 Champions Trophy Title)"
+  },
+  "career_statistics": {
+    "odi": {
+      "matches": 279.0,
+      "runs": 11516.0,
+      "average": 49.21,
+      "strike_rate": 92.86,
+      "hundreds": 33.0,
+      "fifties": 61.0,
+      "highest_score": 264.0,
+      "sixes": 355.0,
+      "wickets": 9.0,
+      "best_bowling": "2/27"
+    },
+    "t20i": {
+      "matches": 159.0,
+      "runs": 4231.0,
+      "average": 32.05,
+      "strike_rate": 140.89,
+      "hundreds": 5.0,
+      "fifties": 32.0,
+      "highest_score": 121.0,
+      "sixes": 205.0
+    },
+    "ipl": {
+      "matches": 272.0,
+      "runs": 7046.0,
+      "average": 29.73,
+      "strike_rate": 132.10,
+      "hundreds": 2.0,
+      "fifties": 47.0,
+      "highest_score": 109.0,
+      "sixes": 302.0,
+      "wickets": 15.0,
+      "best_bowling": "4/6"
+    }
+  },
+  "player_insights": {
+    "physiological_profile": {
+      "resting_heart_rate_bpm": "50-54",
+      "optimal_in_game_hr_bpm": "138-158",
+      "hrv_readiness_level": "High (ANS Stability)",
+      "hrv_score_range": "68-78",
+      "recovery_speed": "Elite (35+ BPM drop in 60s)",
+      "pressure_zone_performance": "Peak Inverted-U (Maintains cognitive clarity at 85% Max HR)",
+      "stress_management_technique": "Vagal Tone Activation (Rhythmic breathing) + Mindfulness"
+    },
+    "pressure_handling_mechanics": {
+      "situation_response": "Rohit exhibits 'Cognitive Decoupling'—the ability to separate the match importance from the physical delivery. During high-leverage overs (e.g., 2025 CT Final), his HR fluctuations remain under 8%, preventing the 'motor-skill breakdown' common in high-stress scenarios.",
+      "clutch_play_style": "In pressure chases, he shifts from high-arousal aggression to 'Calculative Risk.' He uses a 3-step loop: Identifying the weak-link bowler, manipulating field depth via trigger movements, and executing high-exit-velocity shots. This minimizes late-game panic.",
+      "mental_toughness_rating": "9.8/10",
+      "leadership_under_fire": "Demonstrates 'Low-Arousal Leadership,' where his calm exterior acts as a biological regulator for younger teammates, lowering their systemic cortisol levels during tense moments.",
+      "routine_strength": "Ritualistic 'glove-tightening' and 'sight-screen checks' serve as neurological reset triggers to maintain focus."
+    },
+    "wearable_tech_usage": {
+      "device": "WHOOP 4.0 / Ultrahuman Ring Air",
+      "daily_monitoring": "Strain vs. Recovery (Focus on Travel Strain)",
+      "readiness_prediction": "Peak boundary-hitting efficiency observed when HRV >72 and Sleep Latency <15 mins."
+    },
+    "performance_prediction": {
+      "big_game_probability": "Elite (Winning Captain: 2024 T20WC, 2025 CT)",
+      "fatigue_risk": "Moderate-High (Strategic workload management required for 2026/27 cycle)",
+      "injury_risk": "Low (Style relies on biomechanical timing rather than brute force)"
+    },
+    "coach_note": "Elite mental composure. A natural timer with an extended 'Quiet Eye' period under pressure. Maintain focus on HRV during transcontinental tours."
+  }
+  },
+  
+]

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coach Dashboard - Cricket Analysis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            background: linear-gradient(135deg, #004aad 0%, #28a745 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container { max-width: 1400px; margin: 0 auto; }
+        
+        .header {
+            background: rgba(255,255,255,0.95);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+        }
+        
+        .header h1 { font-size: 2.8em; color: #004aad; margin-bottom: 10px; }
+        .header p { color: #666; font-size: 1.1em; }
+        
+        .back-btn { 
+            display: inline-block; 
+            padding: 10px 20px; 
+            background: rgba(255,255,255,0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            transition: all 0.3s;
+        }
+        .back-btn:hover { background: rgba(255,255,255,0.3); }
+        
+        .reports-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+        
+        .report-card {
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 30px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            opacity: 1;
+            border: 2px solid transparent;
+        }
+        .report-card:hover { 
+            transform: translateY(-12px) scale(1.05);
+            box-shadow: 0 20px 50px rgba(40,167,69,0.4);
+            background: #ffffff;
+            opacity: 1;
+            border: 2px solid #28a745;
+        }
+        
+        .report-icon { font-size: 3em; margin-bottom: 15px; }
+        .report-card:hover .report-icon { font-size: 3.5em; }
+        
+        .report-title { font-size: 1.5em; color: #004aad; margin-bottom: 10px; font-weight: 700; }
+        .report-card:hover .report-title { color: #28a745; font-size: 1.65em; }
+        .report-desc { color: #666; margin-bottom: 20px; line-height: 1.5; }
+        .report-btn {
+            padding: 12px 20px;
+            background: linear-gradient(135deg, #28a745, #20c997);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        .report-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 15px rgba(40,167,69,0.4); }
+        
+        .content-section {
+            background: rgba(255,255,255,0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            display: none;
+            animation: fadeIn 0.5s;
+        }
+        .content-section.active { display: block; }
+        
+        .section-title {
+            font-size: 2em;
+            color: #004aad;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            border-bottom: 3px solid #28a745;
+            padding-bottom: 15px;
+        }
+        
+        .player-item {
+            padding: 18px;
+            border: 1px solid #e9ecef;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            transition: all 0.3s;
+        }
+        .player-item:hover { background: #f8f9fa; transform: translateX(5px); }
+        
+        .player-name { font-size: 1.2em; font-weight: 700; color: #004aad; }
+        .player-meta { color: #666; font-size: 0.95em; margin: 8px 0; }
+        .player-insight { color: #333; margin: 10px 0; font-style: italic; }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        .badge-elite { background: #d4edda; color: #155724; }
+        .badge-high { background: #cfe2ff; color: #084298; }
+        .badge-low { background: #f8d7da; color: #842029; }
+        .badge-risk { background: #fff3cd; color: #664d03; }
+        
+        .stats-overview {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .stat-box {
+            background: linear-gradient(135deg, #28a745, #20c997);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .stat-number { font-size: 2.2em; font-weight: 700; }
+        .stat-label { font-size: 0.9em; margin-top: 8px; opacity: 0.9; }
+        
+        .empty-msg { text-align: center; color: #999; padding: 40px; font-size: 1.1em; }
+        
+        @media (max-width: 768px) {
+            .reports-grid { grid-template-columns: 1fr; }
+            .header h1 { font-size: 1.8em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-btn">← Back to Home</a>
+        
+        <div class="header">
+            <h1>🏏 Coach Dashboard</h1>
+            <p>Intelligence reports for match strategy and player management</p>
+        </div>
+        
+        <div class="reports-grid">
+            <div class="report-card" onclick="loadReport('knockouts')">
+                <div class="report-icon">⭐</div>
+                <div class="report-title">Knockout Specialists</div>
+                <div class="report-desc">Elite performers in high-pressure matches and playoff situations.</div>
+                <button class="report-btn">View Report</button>
+            </div>
+            
+            <div class="report-card" onclick="loadReport('readiness')">
+                <div class="report-icon">💪</div>
+                <div class="report-title">Readiness Status</div>
+                <div class="report-desc">HRV and physiological readiness levels for current form assessment.</div>
+                <button class="report-btn">View Report</button>
+            </div>
+            
+            <div class="report-card" onclick="loadReport('fatigue')">
+                <div class="report-icon">⚠️</div>
+                <div class="report-title">Fatigue Risk</div>
+                <div class="report-desc">Players requiring workload management and rotation priority.</div>
+                <button class="report-btn">View Report</button>
+            </div>
+        </div>
+        
+        <!-- Knockouts Report -->
+        <div id="knockoutsSection" class="content-section">
+            <div class="section-title">
+                <i class="fas fa-star"></i> KNOCKOUT SPECIALISTS
+            </div>
+            <p style="color:#666; margin-bottom:20px;">Elite performers with 80%+ probability of impactful performance in high-pressure knockouts.</p>
+            <div id="knockoutsList"></div>
+        </div>
+        
+        <!-- Readiness Report -->
+        <div id="readinessSection" class="content-section">
+            <div class="section-title">
+                <i class="fas fa-heart-pulse"></i> READINESS STATUS
+            </div>
+            
+            <div class="stats-overview">
+                <div class="stat-box">
+                    <div class="stat-number" id="highReadinessCount">0</div>
+                    <div class="stat-label">High Readiness</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number" id="lowReadinessCount">0</div>
+                    <div class="stat-label">Low Readiness</div>
+                </div>
+            </div>
+            
+            <div style="margin-bottom:20px;">
+                <h4 style="color:#004aad; margin-bottom:12px;">✅ High Readiness (Ready to Play):</h4>
+                <div id="highReadinessList"></div>
+            </div>
+            
+            <div>
+                <h4 style="color:#dc3545; margin-bottom:12px;">⚠️ Low Readiness (Monitor):</h4>
+                <div id="lowReadinessList"></div>
+            </div>
+        </div>
+        
+        <!-- Fatigue Report -->
+        <div id="fatigueSection" class="content-section">
+            <div class="section-title">
+                <i class="fas fa-triangle-exclamation"></i> FATIGUE RISK
+            </div>
+            <p style="color:#666; margin-bottom:20px;">Players with elevated fatigue markers. Consider rotation and workload management.</p>
+            <div id="fatigueList"></div>
+        </div>
+    </div>
+    
+    <script>
+        async function loadReport(type) {
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(s => s.classList.remove('active'));
+            
+            try {
+                const res = await fetch(`/api/coach-reports?type=${type}&limit=100`);
+                const data = await res.json();
+                
+                if (type === 'knockouts') {
+                    document.getElementById('knockoutsSection').classList.add('active');
+                    const html = (data.candidates || []).map(c => `
+                        <div class="player-item">
+                            <div class="player-name">${c.name}</div>
+                            <div class="player-meta">${c.country} • ${c.role}</div>
+                            <div><span class="status-badge badge-elite">Elite Performer</span></div>
+                            <div class="player-insight">Big-game probability: <strong>${c.big_game_probability}</strong></div>
+                        </div>
+                    `).join('') || '<div class="empty-msg">No elite knockout specialists found.</div>';
+                    document.getElementById('knockoutsList').innerHTML = html;
+                    
+                } else if (type === 'readiness') {
+                    document.getElementById('readinessSection').classList.add('active');
+                    document.getElementById('highReadinessCount').textContent = (data.high || []).length;
+                    document.getElementById('lowReadinessCount').textContent = (data.low || []).length;
+                    
+                    const highHtml = (data.high || []).map(p => `
+                        <div class="player-item">
+                            <div class="player-name">${p.name}</div>
+                            <div class="player-meta">${p.country}</div>
+                            <div><span class="status-badge badge-high">High Readiness</span></div>
+                            <div class="player-insight">Status: <strong>${p.readiness}</strong></div>
+                        </div>
+                    `).join('') || '<div style="padding:10px; color:#999;">All players at low readiness.</div>';
+                    
+                    const lowHtml = (data.low || []).map(p => `
+                        <div class="player-item">
+                            <div class="player-name">${p.name}</div>
+                            <div class="player-meta">${p.country}</div>
+                            <div><span class="status-badge badge-low">Low Readiness</span></div>
+                            <div class="player-insight">Status: <strong>${p.readiness}</strong></div>
+                        </div>
+                    `).join('') || '<div style="padding:10px; color:#999;">No low readiness players.</div>';
+                    
+                    document.getElementById('highReadinessList').innerHTML = highHtml;
+                    document.getElementById('lowReadinessList').innerHTML = lowHtml;
+                    
+                } else if (type === 'fatigue') {
+                    document.getElementById('fatigueSection').classList.add('active');
+                    const html = (data.candidates || []).map(c => `
+                        <div class="player-item">
+                            <div class="player-name">${c.name}</div>
+                            <div class="player-meta">${c.country} • ${c.role}</div>
+                            <div><span class="status-badge badge-risk">High Fatigue</span></div>
+                            <div class="player-insight">Fatigue Risk: <strong>${c.fatigue_risk}</strong></div>
+                            <div class="player-insight">👉 <em>${c.recommendation}</em></div>
+                        </div>
+                    `).join('') || '<div class="empty-msg">No high fatigue players detected. Team in good condition.</div>';
+                    document.getElementById('fatigueList').innerHTML = html;
+                }
+            } catch (err) {
+                console.error(err);
+                alert('Error loading report');
+            }
+        }
+        
+        // Auto-load knockouts on page load
+        window.addEventListener('load', () => {
+            loadReport('knockouts');
+        });
+    </script>
+</body>
+</html>
